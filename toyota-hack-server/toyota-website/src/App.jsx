@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import './style/ChatBot.css';
 
 function App() {
   const [sessionId, setSessionId] = useState('');
@@ -26,20 +27,26 @@ function App() {
 
   return (
     <div>
-      <div>
+      <div className="chatbot-container">
         {chatHistory.map((msg, idx) => (
-          <div key={idx}>
-            <p>User: {msg.user}</p>
-            <p>Bot: {msg.bot}</p>
+          <div className="messages" key={idx}>
+            <div className="chatbot-messages">
+                <p className="user">User: {msg.user}</p>
+                <p className="bot">Bot: {msg.bot}</p>
+            </div>
+            
+            
           </div>
         ))}
       </div>
-      <input
-        value={message}
-        onChange={(e) => setMessage(e.target.value)}
-        placeholder="Type your message..."
-      />
-      <button onClick={sendMessage}>Send</button>
+      <div className="chatbot-input">
+        <input className="message"
+            value={message}
+            onChange={(e) => setMessage(e.target.value)}
+            placeholder="Type your message..."
+        />
+        <button onClick={sendMessage}>Send</button>
+      </div>
     </div>
   );
 }
