@@ -30,6 +30,8 @@ data = get_html("https://www.toyota.com/all-vehicles/")
 soup = BeautifulSoup(data, "html.parser")
 s = soup.find_all("div", class_="vehicle-card")
 
+cardicts = []
+
 for i in s:
     msrp = i.get("data-basemsrp")
     categoy = i.get("data-category")
@@ -51,4 +53,6 @@ for i in s:
         "Seating": seating,
         "Year": year
     }
-    print(cardict)
+    cardicts.append(cardict)
+
+print(len(cardicts))
