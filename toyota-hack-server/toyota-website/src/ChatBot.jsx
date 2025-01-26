@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import './style/ChatBot.css';
 
+
+
 const ChatBot = () => {
     const [messages, setMessages] = useState([]);
     const [input, setInput] = useState('');
@@ -14,7 +16,7 @@ const ChatBot = () => {
             setTimeout(() => {
                 setMessages(prevMessages => [
                     ...prevMessages,
-                    { text: 'This is a bot response', sender: 'bot' }
+                    { text: 'TERA: This is a bot response', sender: 'bot' }
                 ]);
             }, 1000); // Simulate a delay for the bot response
         }
@@ -38,6 +40,8 @@ const ChatBot = () => {
                 <button onClick={handleSend}>Send</button>
             </div>
         </div>
+
+        
     );
 };
 

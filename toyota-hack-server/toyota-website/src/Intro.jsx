@@ -2,51 +2,52 @@ import React, { useState } from "react";
 import "./style/Intro.css";
 import ToyotaLogo from "./assets/Toyota_logo_Red.svg.png";
 import ChatBot from "./ChatBot.jsx";
+import GenCars from "./GenCars.jsx";
 
 function Intro() {
-  const [showIntro, setShowIntro] = useState(true); // Controls the intro message visibility
-  const [showImage, setShowImage] = useState(false); // Controls the image visibility
-  const [showChatbot, setShowChatbot] = useState(false); // Controls the chatbox visibility
+  const [showIntro, setShowIntro] = useState(true);
+  const [showImage, setShowImage] = useState(false);
+  const [showChatbot, setShowChatbot] = useState(false);
 
   const handleIntroFadeOut = () => {
-    setShowIntro(false); // Trigger the fade-out for the intro message
+    setShowIntro(false);
     setTimeout(() => {
-      setShowImage(true); // Show the image after the intro fades out
-    }, 1000); // Match the fade-out duration
+      setShowImage(true);
+    }, 1000);
   };
 
   const handleImageFadeOut = () => {
-    setShowImage(false); // Trigger fade-out for the image
-
+    setShowImage(false);
     setTimeout(() => {
-      setShowChatbot(true); // Show the chatbot after the image fades out
-    }, 1000); // Match the fade-out duration
+      setShowChatbot(true);
+    }, 1000);
   };
 
   return (
     <div className="app">
       {showIntro && (
-        <div
-          className={`intro-message ${!showIntro ? "fade-out" : ""}`}
-          onClick={handleIntroFadeOut}
-        >
+        <div className={`intro-message ${!showIntro ? "fade-out" : ""}`}>
           <p>We Heard</p>
           <p>You Were</p>
           <p>Looking For</p>
           <p>Your Dream Car</p>
+          <button className="begin-button" onClick={handleIntroFadeOut}> BEGIN </button>
         </div>
       )}
       {showImage && (
         <img
-          src={ToyotaLogo} // Use the imported image
+          src={ToyotaLogo}
           alt="Toyota Logo"
           className={`image ${!showImage ? "fade-out" : "fade-in"}`}
           onClick={handleImageFadeOut}
-          
         />
-        
       )}
-      {showChatbot && <ChatBot />} 
+      {showChatbot && (
+        <>
+          <ChatBot />
+          <GenCars />
+        </>
+      )}
     </div>
   );
 }

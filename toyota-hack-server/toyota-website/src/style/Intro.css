@@ -1,4 +1,4 @@
-/* Define keyframes for sliding animation */
+
 @keyframes slideUp {
     0% {
       transform: translateY(100%);
@@ -29,7 +29,26 @@
       opacity: 1;
     }
   }
+
+  .begin-button{
+    background-color: #ffffff;
+    color: #232b38;
+    border: none;
+    border-radius: 10%;
+    padding: 0.6em 1.2em;
+    margin-top: 1em;
+    font-size: .5em;
+    font-weight: 500;
+    font-family: "aptos-font", sans-serif;
+    cursor: pointer;
+    transition: border-color 0.25s;
+    
+  }
   
+  .begin-button:hover {
+    background-color: #d71920;
+  }
+
   /* Style for the App container */
   .app {
     position: relative;
@@ -38,6 +57,7 @@
     align-items: center;
     justify-content: center;
     overflow: hidden;
+
   }
   
   /* Style for the intro message */
@@ -46,13 +66,14 @@
     font-weight: bold;
     text-align: center;
     line-height: 1.2; /* Adjust spacing between lines */
-    color: #000;
+    color: #ffffff;
     padding: 1rem 2rem;
     border-radius: 8px;
     animation: slideUp 1.5s ease-in-out; /* Slide up and fade in */
     animation-fill-mode: forwards;
     transition: opacity 2s ease-in-out; /* Smooth fade-out transition */
     cursor: pointer; /* Indicate clickability */
+  
   }
   
   /* Style for each line in the message */
