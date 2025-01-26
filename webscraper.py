@@ -25,7 +25,6 @@ soup = BeautifulSoup(data, "html.parser")
 s = soup.find_all("div", class_="vehicle-card")
 
 cardicts = []
-print(s[3])
 
 for i in s:
     msrp = i.get("data-basemsrp")
