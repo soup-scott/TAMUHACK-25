@@ -1,8 +1,6 @@
 import requests as rq
-import re
-
 from bs4 import BeautifulSoup
-
+import json
 
 
 def get_html(url):
@@ -24,7 +22,8 @@ data = get_html("https://www.toyota.com/all-vehicles/")
 soup = BeautifulSoup(data, "html.parser")
 s = soup.find_all("div", class_="vehicle-card")
 
-cardicts = []
+cardicts = {}
+json_string = ""
 
 for i in s:
     msrp = i.get("data-basemsrp")
@@ -49,8 +48,15 @@ for i in s:
         "Year": year,
         "Range": range
     }
-    cardicts.append(cardict)
+    cardicts[displayname] = cardict
+
+json_string = json.dumps(cardicts, indent=4)
+f = open("test.json", "w")
+f.write(json_string)
+f.close()
 
 if __name__ == "__main__":
+    print(json_string)
+    print("\n\n\n\n")
     print(cardicts)
     print(len(cardicts))
