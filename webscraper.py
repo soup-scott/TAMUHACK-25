@@ -16,12 +16,6 @@ def get_html(url):
     except rq.exceptions.RequestException as e:
         print(f"Error fetching {url}: {e}")
         return None
-    
-def parsevehiclecard(str):
-    cardict = {}
-
-    pattern = re.compile(r'data-basemsrp="57625"')
-    cardict.update({"Base MSRP": pattern.match(str)})
 
 
 
@@ -29,6 +23,8 @@ data = get_html("https://www.toyota.com/all-vehicles/")
 
 soup = BeautifulSoup(data, "html.parser")
 s = soup.find_all("div", class_="vehicle-card")
+
+cardicts = []
 
 for i in s:
     msrp = i.get("data-basemsrp")
@@ -40,15 +36,21 @@ for i in s:
     imageurl = i.get("data-jelly")
     seating = i.get("data-seating")
     year = i.get("data-year")
+    range = i.get("data-range")
     cardict = {
+        "Display Name": displayname,
         "MSRP": msrp,
         "Category": categoy,
         "City MPG": citympg,
         "Combined Mileage": combinedmilage,
-        "Display Name": displayname,
         "Hwy MPG": hwympg,
         "Image URL": imageurl,
         "Seating": seating,
-        "Year": year
+        "Year": year,
+        "Range": range
     }
-    print(cardict)
+    cardicts.append(cardict)
+
+if __name__ == "__main__":
+    print(cardicts)
+    print(len(cardicts))
