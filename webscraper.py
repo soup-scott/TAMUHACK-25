@@ -16,12 +16,6 @@ def get_html(url):
     except rq.exceptions.RequestException as e:
         print(f"Error fetching {url}: {e}")
         return None
-    
-def parsevehiclecard(str):
-    cardict = {}
-
-    pattern = re.compile(r'data-basemsrp="57625"')
-    cardict.update({"Base MSRP": pattern.match(str)})
 
 
 
