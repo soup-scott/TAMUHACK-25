@@ -39,7 +39,7 @@ class NodeMergerComponent(CustomQueryComponent):
 
 #openAI set up
 load_dotenv()
-os.environ["OPENAI_API_KEY"] = "add your own key bukko"
+os.environ["OPENAI_API_KEY"] = "Boo Hoo you're asking for my key"
 
 # documents stuff to copy over wrote
 documents = SimpleDirectoryReader("./data").load_data()
@@ -96,7 +96,7 @@ rewrite = ( #CHANGE THISSSSSSSSSSSSSS AHHHHHHHHHHHHHH
 
 rewrite_template = PromptTemplate(rewrite)
 llm = OpenAI(
-    model="gpt-4",
+    model="gpt-4o",
     temperature=0.1, #look at these parameters to see if they fit
     max_tokens=1000,
 )
