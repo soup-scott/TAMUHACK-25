@@ -1,0 +1,82 @@
+/* Define keyframes for sliding animation */
+@keyframes slideUp {
+    0% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  /* Define keyframes for fading out */
+  @keyframes fadeOut {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Define keyframes for fading in */
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  /* Style for the App container */
+  .app {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f4;
+    overflow: hidden;
+  }
+  
+  /* Style for the intro message */
+  .intro-message {
+    font-size: 75px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.2; /* Adjust spacing between lines */
+    color: #000;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    animation: slideUp 1.5s ease-in-out; /* Slide up and fade in */
+    animation-fill-mode: forwards;
+    transition: opacity 2s ease-in-out; /* Smooth fade-out transition */
+    cursor: pointer; /* Indicate clickability */
+  }
+  
+  /* Style for each line in the message */
+  .intro-message p {
+    margin: 0;
+  }
+  
+  /* Fade-out effect */
+  .intro-message.fade-out {
+    animation: fadeOut 2s ease-in-out forwards; /* Trigger fade-out animation */
+  }
+  
+  /* Style for the image */
+  .image {
+    width: 500px;
+    height: auto;
+    border-radius: 8px;
+    cursor: pointer;
+    animation: fadeIn 2s ease-in-out forwards; /* Fade in */
+    transition: opacity 2s ease-in-out; /* Smooth fade-out on click */
+  }
+  
+  /* Fade-out for the image */
+  .image.fade-out {
+    animation: fadeOut 2s ease-in-out forwards;
+  }
