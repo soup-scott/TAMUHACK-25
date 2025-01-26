@@ -3,13 +3,9 @@ import requests as rq
 from bs4 import BeautifulSoup
 from dotenv import load_dotenv
 #from llama_index.readers.web import BeautifulSoupWebReader
-from llama_index.core import VectorStoreIndex, SimpleDirectoryReader
+from llama_index.core import VectorStoreIndex, SimpleDirectoryReader, StorageContext, load_index_from_storage
 from llama_index.embeddings.openai import OpenAIEmbedding
-from llama_index.core.query_pipeline import (
-    QueryPipeline,
-    InputComponent,
-    ArgPackComponent,
-)
+from llama_index.core.query_pipeline import QueryPipeline, InputComponent
 from llama_index.core.prompts import PromptTemplate
 from llama_index.llms.openai import OpenAI
 from llama_index.postprocessor.colbert_rerank import ColbertRerank
@@ -19,6 +15,7 @@ from llama_index.core.llms import ChatMessage
 from llama_index.core.query_pipeline import CustomQueryComponent
 from llama_index.core.schema import NodeWithScore
 from llama_index.core.memory import ChatMemoryBuffer
+from llama_index.core.readers.json import JSONReader
 
 class NodeMergerComponent(CustomQueryComponent):
     """Custom component to merge node lists from two retrievers"""
@@ -54,6 +51,33 @@ index = VectorStoreIndex.from_documents(
         model="text-embedding-3-large", embed_batch_size=256 #look at these parameters to see if they fit
     ),
 )
+
+def load_files():
+    PERSIST_DIR = "./storage"
+
+    if not os.path.exists(PERSIST_DIR):
+        #initialize JSONreader and load JSON
+        reader = JSONReader(levels_back=0, collapse_length=None, ensure_ascii=False, is_jsonl=False, clean_json=True)
+        documents = reader.load_data(input_file="./data/test.json", extra_info={})
+
+        #load pdf docs
+        documents += SimpleDirectoryReader("./data").load_data()
+        print("With a total of " + str(len(documents)) + " documents")
+        #create an index for querying
+        index = VectorStoreIndex.from_documents(
+            documents,
+            embed_model=OpenAIEmbedding(
+                model="text-embedding-3-large", embed_batch_size=256 #look at these parameters to see if they fit
+            ),
+        )
+
+        #store in folder for future use
+        index.storage_context.persist(persist_dir=PERSIST_DIR)
+    else:
+        storage_context = StorageContext.from_defaults(persist_dir=PERSIST_DIR)
+        index = load_index_from_storage(storage_context)
+
+    return index
 
 #Creating Query Pipeline
 
