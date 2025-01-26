@@ -31,6 +31,7 @@ soup = BeautifulSoup(data, "html.parser")
 s = soup.find_all("div", class_="vehicle-card")
 
 cardicts = []
+print(s[3])
 
 for i in s:
     msrp = i.get("data-basemsrp")
@@ -42,17 +43,21 @@ for i in s:
     imageurl = i.get("data-jelly")
     seating = i.get("data-seating")
     year = i.get("data-year")
+    range = i.get("data-range")
     cardict = {
+        "Display Name": displayname,
         "MSRP": msrp,
         "Category": categoy,
         "City MPG": citympg,
         "Combined Mileage": combinedmilage,
-        "Display Name": displayname,
         "Hwy MPG": hwympg,
         "Image URL": imageurl,
         "Seating": seating,
-        "Year": year
+        "Year": year,
+        "Range": range
     }
     cardicts.append(cardict)
 
-print(len(cardicts))
+if __name__ == "__main__":
+    print(cardicts)
+    print(len(cardicts))
