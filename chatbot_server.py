@@ -469,7 +469,7 @@ def handle_chat():
 
         # Corrected access:
         # ai_response = response["response"]  # Get from pipeline output dict
-        memory.put(message_text)
+        memory.put(ChatMessage(role="assistant", content=message_text))
 
         return jsonify({
             'response': message_text

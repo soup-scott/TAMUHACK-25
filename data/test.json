@@ -1,0 +1,1684 @@
+{
+    "4Runner": {
+        "Display_Name": "4Runner",
+        "MSRP": "40770",
+        "Category": "suvs,Crossovers & SUVs",
+        "City_MPG": "20",
+        "Combined_Mileage": "22",
+        "Hwy_MPG": "26",
+        "ImageURL": "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/jellies/relative/2025/4runner/base.png",
+        "Seating": "7",
+        "Year": "2025",
+        "Range": null,
+        "Colors": {
+            "Ice_Cap_": {
+                "hex": "FFFFFF",
+                "extra_color_cost": false
+            },
+            "Wind_Chill_Pearl_": {
+                "hex": "E3E9E9",
+                "extra_color_cost": true
+            },
+            "Cutting_Edge_": {
+                "hex": "979A9B",
+                "extra_color_cost": false
+            },
+            "Underground_": {
+                "hex": "292A2D",
+                "extra_color_cost": false
+            },
+            "Black_": {
+                "hex": "000000",
+                "extra_color_cost": false
+            },
+            "Supersonic_Red_": {
+                "hex": "E20500",
+                "extra_color_cost": true
+            },
+            "Mudbath_": {
+                "hex": "604F46",
+                "extra_color_cost": false
+            },
+            "Everest_": {
+                "hex": "243B3C",
+                "extra_color_cost": false
+            },
+            "Heritage_Blue_": {
+                "hex": "5091C3",
+                "extra_color_cost": false
+            }
+        }
+    },
+    "4Runner i-FORCE MAX": {
+        "Display_Name": "4Runner i-FORCE MAX",
+        "MSRP": "51990",
+        "Category": "suvs,Electrified,Crossovers & SUVs",
+        "City_MPG": "23",
+        "Combined_Mileage": "23",
+        "Hwy_MPG": "24",
+        "ImageURL": "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/jellies/relative/2025/4runnerhybrid/base.png",
+        "Seating": "5",
+        "Year": "2025",
+        "Range": null,
+        "Colors": {
+            "Ice_Cap_": {
+                "hex": "FFFFFF",
+                "extra_color_cost": false
+            },
+            "Wind_Chill_Pearl_": {
+                "hex": "E3E9E9",
+                "extra_color_cost": true
+            },
+            "Cutting_Edge_": {
+                "hex": "979A9B",
+                "extra_color_cost": false
+            },
+            "Underground_": {
+                "hex": "292A2D",
+                "extra_color_cost": false
+            },
+            "Black_": {
+                "hex": "000000",
+                "extra_color_cost": false
+            },
+            "Supersonic_Red_": {
+                "hex": "E20500",
+                "extra_color_cost": true
+            },
+            "Mudbath_": {
+                "hex": "604F46",
+                "extra_color_cost": false
+            },
+            "Everest_": {
+                "hex": "243B3C",
+                "extra_color_cost": false
+            },
+            "Heritage_Blue_": {
+                "hex": "5091C3",
+                "extra_color_cost": false
+            }
+        }
+    },
+    "bZ4X": {
+        "Display_Name": "bZ4X",
+        "MSRP": "37070",
+        "Category": "suvs,Electrified,Crossovers & SUVs",
+        "City_MPG": null,
+        "Combined_Mileage": "N/A",
+        "Hwy_MPG": null,
+        "ImageURL": "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/jellies/relative/2025/bz4x/base.png",
+        "Seating": "5",
+        "Year": "2025",
+        "Range": "252",
+        "Colors": {
+            "Wind_Chill_Pearl_": {
+                "hex": "F3F2F2",
+                "extra_color_cost": true
+            },
+            "Elemental_Silver_Metallic_": {
+                "hex": "D1D4D7",
+                "extra_color_cost": true
+            },
+            "Heavy_Metal_": {
+                "hex": "545251",
+                "extra_color_cost": true
+            },
+            "Supersonic_Red_": {
+                "hex": "E20500",
+                "extra_color_cost": true
+            },
+            "Black_": {
+                "hex": "000000",
+                "extra_color_cost": false
+            },
+            "Wind_Chill_Pearl_with_Black_roof_": {
+                "hex": "F3F2F2",
+                "extra_color_cost": true
+            },
+            "Elemental_Silver_Metallic\u00a0with_Black_roof_": {
+                "hex": "D1D4D7",
+                "extra_color_cost": true
+            },
+            "Heavy_Metal\u00a0with_Black_roof_": {
+                "hex": "545251",
+                "extra_color_cost": true
+            },
+            "Supersonic_Red\u00a0with_Black_roof_": {
+                "hex": "E20500",
+                "extra_color_cost": true
+            }
+        }
+    },
+    "Camry": {
+        "Display_Name": "Camry",
+        "MSRP": "28700",
+        "Category": "Electrified,Cars & Minivan,cars",
+        "City_MPG": "53",
+        "Combined_Mileage": "51",
+        "Hwy_MPG": "50",
+        "ImageURL": "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/jellies/relative/2025/camry/base.png",
+        "Seating": "5",
+        "Year": "2025",
+        "Range": null,
+        "Colors": {
+            "Ocean_Gem_": {
+                "hex": "1B4558",
+                "extra_color_cost": false
+            },
+            "Heavy_Metal_": {
+                "hex": "535353",
+                "extra_color_cost": true
+            },
+            "Ice_Cap_": {
+                "hex": "FFFFFF",
+                "extra_color_cost": false
+            },
+            "Celestial_Silver_Metallic_": {
+                "hex": "828387",
+                "extra_color_cost": false
+            },
+            "Midnight_Black_Metallic_": {
+                "hex": "00031E",
+                "extra_color_cost": false
+            },
+            "Reservoir_Blue_": {
+                "hex": "1A1C37",
+                "extra_color_cost": false
+            },
+            "Supersonic_Red_": {
+                "hex": "E20500",
+                "extra_color_cost": true
+            },
+            "Wind_Chill_Pearl_": {
+                "hex": "E3E9E9",
+                "extra_color_cost": true
+            },
+            "Underground_": {
+                "hex": "7E7B7D",
+                "extra_color_cost": false
+            },
+            "Heavy_Metal_with_Midnight_Black_Metallic_roof_": {
+                "hex": "535353",
+                "extra_color_cost": true
+            },
+            "Ocean_Gem_with_Midnight_Black_Metallic_roof_": {
+                "hex": "1B4558",
+                "extra_color_cost": true
+            },
+            "Wind_Chill_Pearl_with_Midnight_Black_Metallic_roof_": {
+                "hex": "E3E9E9",
+                "extra_color_cost": true
+            },
+            "Supersonic_Red_with_Midnight_Black_Metallic_roof_": {
+                "hex": "E20500",
+                "extra_color_cost": true
+            }
+        }
+    },
+    "Corolla": {
+        "Display_Name": "Corolla",
+        "MSRP": "22325",
+        "Category": "Cars & Minivan,cars",
+        "City_MPG": "32",
+        "Combined_Mileage": "35",
+        "Hwy_MPG": "41",
+        "ImageURL": "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/jellies/relative/2025/corolla/base.png",
+        "Seating": "5",
+        "Year": "2025",
+        "Range": null,
+        "Colors": {
+            "Underground_with_Midnight_Black_Metallic_roof_": {
+                "hex": "7E7B7D",
+                "extra_color_cost": true
+            },
+            "Blueprint_": {
+                "hex": "1E2548",
+                "extra_color_cost": false
+            },
+            "Wind_Chill_Pearl_": {
+                "hex": "E3E9E9",
+                "extra_color_cost": true
+            },
+            "Ice_Cap_": {
+                "hex": "FFFFFF",
+                "extra_color_cost": false
+            },
+            "Ruby_Flare_Pearl_": {
+                "hex": "740000",
+                "extra_color_cost": true
+            },
+            "Classic_Silver_Metallic_": {
+                "hex": "808080",
+                "extra_color_cost": false
+            },
+            "Celestite_": {
+                "hex": "636B79",
+                "extra_color_cost": false
+            },
+            "Midnight_Black_Metallic_": {
+                "hex": "00031E",
+                "extra_color_cost": false
+            },
+            "Underground_": {
+                "hex": "7E7B7D",
+                "extra_color_cost": false
+            },
+            "Blueprint_with_Midnight_Black_Metallic_roof_": {
+                "hex": "1E2548",
+                "extra_color_cost": true
+            },
+            "Wind_Chill_Pearl_with_Midnight_Black_Metallic_roof_": {
+                "hex": "E3E9E9",
+                "extra_color_cost": true
+            },
+            "Ice_Cap_with_Midnight_Black_Metallic_roof_": {
+                "hex": "FFFFFF",
+                "extra_color_cost": true
+            },
+            "Ruby_Flare_Pearl_with_Midnight_Black_Metallic_roof_": {
+                "hex": "740000",
+                "extra_color_cost": true
+            },
+            "Classic_Silver_Metallic_with_Midnight_Black_Metallic_roof_": {
+                "hex": "808080",
+                "extra_color_cost": true
+            },
+            "Celestite_with_Midnight_Black_Metallic_roof_": {
+                "hex": "636B79",
+                "extra_color_cost": true
+            }
+        }
+    },
+    "Corolla Cross": {
+        "Display_Name": "Corolla Cross",
+        "MSRP": "24035",
+        "Category": "crossovers,Crossovers & SUVs",
+        "City_MPG": "31",
+        "Combined_Mileage": "32",
+        "Hwy_MPG": "33",
+        "ImageURL": "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/jellies/relative/2025/corollacross/base.png",
+        "Seating": "5",
+        "Year": "2025",
+        "Range": null,
+        "Colors": {
+            "Soul_Red_Crystal/Jet_Black_roof_": {
+                "hex": "80071A",
+                "extra_color_cost": true
+            },
+            "Celestite_": {
+                "hex": "636B79",
+                "extra_color_cost": false
+            },
+            "Wind_Chill_Pearl_": {
+                "hex": "E3E9E9",
+                "extra_color_cost": true
+            },
+            "Cypress_": {
+                "hex": "2D4C36",
+                "extra_color_cost": false
+            },
+            "Soul_Red_Crystal_": {
+                "hex": "80071A",
+                "extra_color_cost": true
+            },
+            "Jet_Black_": {
+                "hex": "121212",
+                "extra_color_cost": false
+            },
+            "Sonic_Silver_": {
+                "hex": "A2A8AF",
+                "extra_color_cost": false
+            },
+            "Blue_Crush_Metallic_": {
+                "hex": "111D69",
+                "extra_color_cost": false
+            },
+            "Wind_Chill_Pearl_/_Jet_Black_roof_": {
+                "hex": "E3E9E9",
+                "extra_color_cost": true
+            },
+            "Blue_Crush_Metallic/Jet_Black_roof_": {
+                "hex": "111D69",
+                "extra_color_cost": true
+            },
+            "Sonic_Silver/Jet_Black_roof_": {
+                "hex": "A2A8AF",
+                "extra_color_cost": true
+            }
+        }
+    },
+    "Corolla Cross Hybrid": {
+        "Display_Name": "Corolla Cross Hybrid",
+        "MSRP": "28395",
+        "Category": "crossovers,Electrified,Crossovers & SUVs",
+        "City_MPG": "45",
+        "Combined_Mileage": "42",
+        "Hwy_MPG": "38",
+        "ImageURL": "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/jellies/relative/2025/corollacrosshybrid/base.png",
+        "Seating": "5",
+        "Year": "2025",
+        "Range": null,
+        "Colors": {
+            "Soul_Red_Crystal/Jet_Black_roof_": {
+                "hex": "80071A",
+                "extra_color_cost": true
+            },
+            "Celestite_": {
+                "hex": "636B79",
+                "extra_color_cost": false
+            },
+            "Wind_Chill_Pearl_": {
+                "hex": "E3E9E9",
+                "extra_color_cost": true
+            },
+            "Soul_Red_Crystal_": {
+                "hex": "80071A",
+                "extra_color_cost": true
+            },
+            "Jet_Black_": {
+                "hex": "121212",
+                "extra_color_cost": false
+            },
+            "Sonic_Silver_": {
+                "hex": "A2A8AF",
+                "extra_color_cost": false
+            },
+            "Blue_Crush_Metallic_": {
+                "hex": "111D69",
+                "extra_color_cost": false
+            },
+            "Wind_Chill_Pearl_/_Jet_Black_roof_": {
+                "hex": "E3E9E9",
+                "extra_color_cost": true
+            },
+            "Blue_Crush_Metallic/Jet_Black_roof_": {
+                "hex": "111D69",
+                "extra_color_cost": true
+            },
+            "Sonic_Silver/Jet_Black_roof_": {
+                "hex": "A2A8AF",
+                "extra_color_cost": true
+            }
+        }
+    },
+    "Corolla Hatchback": {
+        "Display_Name": "Corolla Hatchback",
+        "MSRP": "23780",
+        "Category": "Cars & Minivan,cars",
+        "City_MPG": "32",
+        "Combined_Mileage": "35",
+        "Hwy_MPG": "41",
+        "ImageURL": "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/jellies/relative/2025/corollahatchback/base.png",
+        "Seating": "5",
+        "Year": "2025",
+        "Range": null,
+        "Colors": {
+            "Wind_Chill_Pearl_with_Midnight_Black_Metallic_roof_": {
+                "hex": "E3E9E9",
+                "extra_color_cost": true
+            },
+            "Blue_Crush_Metallic_": {
+                "hex": "111D69",
+                "extra_color_cost": false
+            },
+            "Wind_Chill_Pearl_": {
+                "hex": "E3E9E9",
+                "extra_color_cost": true
+            },
+            "Ice_Cap_": {
+                "hex": "FFFFFF",
+                "extra_color_cost": false
+            },
+            "Classic_Silver_Metallic_": {
+                "hex": "808080",
+                "extra_color_cost": false
+            },
+            "Magnetic_Gray_Metallic_": {
+                "hex": "494848",
+                "extra_color_cost": false
+            },
+            "Midnight_Black_Metallic_": {
+                "hex": "00031E",
+                "extra_color_cost": false
+            },
+            "Finish_Line_Red_": {
+                "hex": "A5242D",
+                "extra_color_cost": true
+            },
+            "Inferno_": {
+                "hex": "D63400",
+                "extra_color_cost": false
+            },
+            "Classic_Silver_Metallic_with_Midnight_Black_Metallic_roof_": {
+                "hex": "808080",
+                "extra_color_cost": true
+            },
+            "Magnetic_Gray_Metallic_with_Midnight_Black_Metallic_roof_": {
+                "hex": "494848",
+                "extra_color_cost": true
+            },
+            "Finish_Line_Red_with_Midnight_Black_Metallic_roof_": {
+                "hex": "A5242D",
+                "extra_color_cost": true
+            },
+            "Blue_Crush_Metallic_with_Midnight_Black_Metallic_roof_": {
+                "hex": "111D69",
+                "extra_color_cost": true
+            }
+        }
+    },
+    "Corolla Hybrid": {
+        "Display_Name": "Corolla Hybrid",
+        "MSRP": "23825",
+        "Category": "Electrified,Cars & Minivan,cars",
+        "City_MPG": "53",
+        "Combined_Mileage": "50",
+        "Hwy_MPG": "46",
+        "ImageURL": "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/jellies/relative/2025/corollahybrid/base.png",
+        "Seating": "5",
+        "Year": "2025",
+        "Range": null,
+        "Colors": {
+            "Blueprint_": {
+                "hex": "1E2548",
+                "extra_color_cost": false
+            },
+            "Wind_Chill_Pearl_": {
+                "hex": "E3E9E9",
+                "extra_color_cost": true
+            },
+            "Ice_Cap_": {
+                "hex": "FFFFFF",
+                "extra_color_cost": false
+            },
+            "Ruby_Flare_Pearl_": {
+                "hex": "740000",
+                "extra_color_cost": true
+            },
+            "Classic_Silver_Metallic_": {
+                "hex": "808080",
+                "extra_color_cost": false
+            },
+            "Celestite_": {
+                "hex": "636B79",
+                "extra_color_cost": false
+            },
+            "Midnight_Black_Metallic_": {
+                "hex": "00031E",
+                "extra_color_cost": false
+            },
+            "Underground_": {
+                "hex": "7E7B7D",
+                "extra_color_cost": false
+            }
+        }
+    },
+    "GR Corolla": {
+        "Display_Name": "GR Corolla",
+        "MSRP": "38860",
+        "Category": "Cars & Minivan,cars",
+        "City_MPG": "21",
+        "Combined_Mileage": "24",
+        "Hwy_MPG": "28",
+        "ImageURL": "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/jellies/relative/2025/grcorolla/base.png",
+        "Seating": "5",
+        "Year": "2025",
+        "Range": null,
+        "Colors": {
+            "Supersonic_Red_": {
+                "hex": "E20500",
+                "extra_color_cost": true
+            },
+            "Heavy_Metal_": {
+                "hex": "545251",
+                "extra_color_cost": true
+            },
+            "Ice_Cap_": {
+                "hex": "FFFFFF",
+                "extra_color_cost": false
+            },
+            "Black_": {
+                "hex": "000000",
+                "extra_color_cost": false
+            }
+        }
+    },
+    "GR Supra": {
+        "Display_Name": "GR Supra",
+        "MSRP": "56250",
+        "Category": "Cars & Minivan,cars",
+        "City_MPG": "23",
+        "Combined_Mileage": "26",
+        "Hwy_MPG": "31",
+        "ImageURL": "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/jellies/relative/2025/grsupra/base.png",
+        "Seating": "2",
+        "Year": "2025",
+        "Range": null,
+        "Colors": {
+            "Stratosphere_": {
+                "hex": "100C56",
+                "extra_color_cost": true
+            },
+            "Absolute_Zero_": {
+                "hex": "EBEAE5",
+                "extra_color_cost": false
+            },
+            "Nocturnal_": {
+                "hex": "161617",
+                "extra_color_cost": false
+            },
+            "Renaissance_Red_2.0_": {
+                "hex": "B61E0D",
+                "extra_color_cost": false
+            }
+        }
+    },
+    "GR86": {
+        "Display_Name": "GR86",
+        "MSRP": "30000",
+        "Category": "Cars & Minivan,cars",
+        "City_MPG": "20",
+        "Combined_Mileage": "22",
+        "Hwy_MPG": "26",
+        "ImageURL": "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/jellies/relative/2025/gr86/base.png",
+        "Seating": "4",
+        "Year": "2025",
+        "Range": null,
+        "Colors": {
+            "Ridge_Green_": {
+                "hex": "1e342d",
+                "extra_color_cost": false
+            },
+            "Raven_": {
+                "hex": "191918",
+                "extra_color_cost": false
+            },
+            "Pavement_": {
+                "hex": "79787E",
+                "extra_color_cost": false
+            },
+            "Steel_": {
+                "hex": "b8b8b8",
+                "extra_color_cost": false
+            },
+            "Halo_": {
+                "hex": "E0DDD4",
+                "extra_color_cost": true
+            },
+            "Trueno_Blue_": {
+                "hex": "213182",
+                "extra_color_cost": false
+            },
+            "Track_bRED_": {
+                "hex": "BE0000",
+                "extra_color_cost": true
+            }
+        }
+    },
+    "Grand Highlander": {
+        "Display_Name": "Grand Highlander",
+        "MSRP": "43630",
+        "Category": "crossovers,Crossovers & SUVs",
+        "City_MPG": "21",
+        "Combined_Mileage": "24",
+        "Hwy_MPG": "28",
+        "ImageURL": "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/jellies/relative/2025/grandhighlander/base.png",
+        "Seating": "8",
+        "Year": "2025",
+        "Range": null,
+        "Colors": {
+            "Heavy_Metal_": {
+                "hex": "535353",
+                "extra_color_cost": true
+            },
+            "Cement_": {
+                "hex": "737B82",
+                "extra_color_cost": false
+            },
+            "Celestial_Silver_Metallic_": {
+                "hex": "828387",
+                "extra_color_cost": false
+            },
+            "Storm_Cloud_": {
+                "hex": "22323F",
+                "extra_color_cost": false
+            },
+            "Wind_Chill_Pearl_": {
+                "hex": "F3F2F2",
+                "extra_color_cost": true
+            },
+            "Ruby_Flare_Pearl_": {
+                "hex": "740000",
+                "extra_color_cost": true
+            },
+            "Midnight_Black_Metallic_": {
+                "hex": "00031E",
+                "extra_color_cost": false
+            },
+            "Blueprint_": {
+                "hex": "1E2548",
+                "extra_color_cost": false
+            }
+        }
+    },
+    "Grand Highlander Hybrid": {
+        "Display_Name": "Grand Highlander Hybrid",
+        "MSRP": "45380",
+        "Category": "crossovers,Electrified,Crossovers & SUVs",
+        "City_MPG": "37",
+        "Combined_Mileage": "36",
+        "Hwy_MPG": "34",
+        "ImageURL": "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/jellies/relative/2025/grandhighlanderhybrid/base.png",
+        "Seating": "8",
+        "Year": "2025",
+        "Range": null,
+        "Colors": {
+            "Heavy_Metal_": {
+                "hex": "535353",
+                "extra_color_cost": true
+            },
+            "Cement_": {
+                "hex": "737B82",
+                "extra_color_cost": false
+            },
+            "Celestial_Silver_Metallic_": {
+                "hex": "828387",
+                "extra_color_cost": false
+            },
+            "Storm_Cloud_": {
+                "hex": "22323F",
+                "extra_color_cost": false
+            },
+            "Wind_Chill_Pearl_": {
+                "hex": "F3F2F2",
+                "extra_color_cost": true
+            },
+            "Ruby_Flare_Pearl_": {
+                "hex": "740000",
+                "extra_color_cost": true
+            },
+            "Midnight_Black_Metallic_": {
+                "hex": "00031E",
+                "extra_color_cost": false
+            },
+            "Blueprint_": {
+                "hex": "1E2548",
+                "extra_color_cost": false
+            }
+        }
+    },
+    "Highlander": {
+        "Display_Name": "Highlander",
+        "MSRP": "39520",
+        "Category": "crossovers,Crossovers & SUVs",
+        "City_MPG": "22",
+        "Combined_Mileage": "25",
+        "Hwy_MPG": "29",
+        "ImageURL": "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/jellies/relative/2025/highlander/base.png",
+        "Seating": "8",
+        "Year": "2025",
+        "Range": null,
+        "Colors": {
+            "Heavy_Metal_": {
+                "hex": "535353",
+                "extra_color_cost": true
+            },
+            "Wind_Chill_Pearl_": {
+                "hex": "F3F2F2",
+                "extra_color_cost": true
+            },
+            "Midnight_Black_Metallic_": {
+                "hex": "00031E",
+                "extra_color_cost": false
+            },
+            "Celestial_Silver_Metallic_": {
+                "hex": "828387",
+                "extra_color_cost": false
+            },
+            "Magnetic_Gray_Metallic_": {
+                "hex": "494848",
+                "extra_color_cost": false
+            },
+            "Cypress_": {
+                "hex": "2D4C36",
+                "extra_color_cost": false
+            },
+            "Blueprint_": {
+                "hex": "1E2548",
+                "extra_color_cost": false
+            },
+            "Ruby_Flare_Pearl_": {
+                "hex": "740000",
+                "extra_color_cost": true
+            },
+            "Cement_": {
+                "hex": "737B82",
+                "extra_color_cost": false
+            }
+        }
+    },
+    "Highlander Hybrid": {
+        "Display_Name": "Highlander Hybrid",
+        "MSRP": "46020",
+        "Category": "crossovers,Electrified,Crossovers & SUVs",
+        "City_MPG": "35",
+        "Combined_Mileage": "35",
+        "Hwy_MPG": "35",
+        "ImageURL": "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/jellies/relative/2025/highlanderhybrid/base.png",
+        "Seating": "8",
+        "Year": "2025",
+        "Range": null,
+        "Colors": {
+            "Heavy_Metal_": {
+                "hex": "535353",
+                "extra_color_cost": true
+            },
+            "Wind_Chill_Pearl_": {
+                "hex": "F3F2F2",
+                "extra_color_cost": true
+            },
+            "Midnight_Black_Metallic_": {
+                "hex": "00031E",
+                "extra_color_cost": false
+            },
+            "Celestial_Silver_Metallic_": {
+                "hex": "828387",
+                "extra_color_cost": false
+            },
+            "Magnetic_Gray_Metallic_": {
+                "hex": "494848",
+                "extra_color_cost": false
+            },
+            "Cypress_": {
+                "hex": "2D4C36",
+                "extra_color_cost": false
+            },
+            "Blueprint_": {
+                "hex": "1E2548",
+                "extra_color_cost": false
+            },
+            "Ruby_Flare_Pearl_": {
+                "hex": "740000",
+                "extra_color_cost": true
+            },
+            "Cement_": {
+                "hex": "737B82",
+                "extra_color_cost": false
+            }
+        }
+    },
+    "Land Cruiser": {
+        "Display_Name": "Land Cruiser",
+        "MSRP": "56700",
+        "Category": "suvs,Electrified,Crossovers & SUVs",
+        "City_MPG": "22",
+        "Combined_Mileage": "23",
+        "Hwy_MPG": "25",
+        "ImageURL": "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/jellies/relative/2025/landcruiser/base.png",
+        "Seating": "5",
+        "Year": "2025",
+        "Range": null,
+        "Colors": {
+            "Trail_Dust_/_Grayscape_": {
+                "hex": "9b762d",
+                "extra_color_cost": true
+            },
+            "Heritage_Blue_/_Grayscape_": {
+                "hex": "5091C3",
+                "extra_color_cost": true
+            },
+            "Black_": {
+                "hex": "000000",
+                "extra_color_cost": false
+            },
+            "Wind_Chill_Pearl_": {
+                "hex": "E3E9E9",
+                "extra_color_cost": true
+            },
+            "Meteor_Shower_": {
+                "hex": "A1A1A1",
+                "extra_color_cost": false
+            },
+            "Ice_Cap_": {
+                "hex": "FFFFFF",
+                "extra_color_cost": false
+            },
+            "Underground_": {
+                "hex": "292A2D",
+                "extra_color_cost": false
+            },
+            "Heritage_Blue_": {
+                "hex": "5091C3",
+                "extra_color_cost": false
+            }
+        }
+    },
+    "Mirai": {
+        "Display_Name": "Mirai",
+        "MSRP": "50190",
+        "Category": "Electrified,Cars & Minivan,cars",
+        "City_MPG": "76",
+        "Combined_Mileage": "74",
+        "Hwy_MPG": "71",
+        "ImageURL": "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/jellies/relative/2024/mirai/base.png",
+        "Seating": "5",
+        "Year": "2024",
+        "Range": null,
+        "Colors": {
+            "Supersonic_Red_": {
+                "hex": "E20500",
+                "extra_color_cost": true
+            },
+            "Hydro_Blue_": {
+                "hex": "1347C1",
+                "extra_color_cost": true
+            },
+            "Elemental_Silver_Metallic_": {
+                "hex": "D1D4D7",
+                "extra_color_cost": true
+            },
+            "Oxygen_White_": {
+                "hex": "FFFCF9",
+                "extra_color_cost": true
+            },
+            "Heavy_Metal_": {
+                "hex": "545251",
+                "extra_color_cost": true
+            },
+            "Black_": {
+                "hex": "000000",
+                "extra_color_cost": false
+            }
+        }
+    },
+    "Prius": {
+        "Display_Name": "Prius",
+        "MSRP": "28350",
+        "Category": "Electrified,Cars & Minivan,cars",
+        "City_MPG": "57",
+        "Combined_Mileage": "57",
+        "Hwy_MPG": "56",
+        "ImageURL": "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/jellies/relative/2025/prius/base.png",
+        "Seating": "5",
+        "Year": "2025",
+        "Range": null,
+        "Colors": {
+            "Karashi_": {
+                "hex": "AB8214",
+                "extra_color_cost": false
+            },
+            "Cutting_Edge_": {
+                "hex": "858585",
+                "extra_color_cost": false
+            },
+            "Guardian_Gray_": {
+                "hex": "4c5156",
+                "extra_color_cost": false
+            },
+            "Midnight_Black_Metallic_": {
+                "hex": "00031E",
+                "extra_color_cost": false
+            },
+            "Supersonic_Red_": {
+                "hex": "E20500",
+                "extra_color_cost": true
+            },
+            "Wind_Chill_Pearl_": {
+                "hex": "E3E9E9",
+                "extra_color_cost": true
+            },
+            "Reservoir_Blue_": {
+                "hex": "1A1C37",
+                "extra_color_cost": false
+            }
+        }
+    },
+    "Prius Prime": {
+        "Display_Name": "Prius Prime",
+        "MSRP": "32975",
+        "Category": "Electrified,Cars & Minivan,cars",
+        "City_MPG": "50",
+        "Combined_Mileage": "48",
+        "Hwy_MPG": "47",
+        "ImageURL": "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/jellies/relative/2024/priusprime/base.png",
+        "Seating": "5",
+        "Year": "2024",
+        "Range": null,
+        "Colors": {
+            "Guardian_Gray_": {
+                "hex": "4c5156",
+                "extra_color_cost": false
+            },
+            "Cutting_Edge_": {
+                "hex": "858585",
+                "extra_color_cost": false
+            },
+            "Midnight_Black_Metallic_": {
+                "hex": "00031E",
+                "extra_color_cost": false
+            },
+            "Supersonic_Red_": {
+                "hex": "E20500",
+                "extra_color_cost": true
+            },
+            "Wind_Chill_Pearl_": {
+                "hex": "E3E9E9",
+                "extra_color_cost": true
+            },
+            "Reservoir_Blue_": {
+                "hex": "1A1C37",
+                "extra_color_cost": false
+            }
+        }
+    },
+    "Prius Plug-in Hybrid": {
+        "Display_Name": "Prius Plug-in Hybrid",
+        "MSRP": "33375",
+        "Category": "Electrified,cars,Cars & Minivan",
+        "City_MPG": "50",
+        "Combined_Mileage": "48",
+        "Hwy_MPG": "47",
+        "ImageURL": "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/jellies/relative/2025/priuspluginhybrid/base.png",
+        "Seating": "5",
+        "Year": "2025",
+        "Range": null,
+        "Colors": {
+            "Wind_Chill_Pearl_": {
+                "hex": "E3E9E9",
+                "extra_color_cost": true
+            },
+            "Guardian_Gray_": {
+                "hex": "4C5156",
+                "extra_color_cost": false
+            },
+            "Supersonic_Red_": {
+                "hex": "E20500",
+                "extra_color_cost": true
+            },
+            "Cutting_Edge_": {
+                "hex": "858585",
+                "extra_color_cost": false
+            },
+            "Midnight_Black_Metallic_": {
+                "hex": "00031E",
+                "extra_color_cost": false
+            },
+            "Reservoir_Blue_": {
+                "hex": "1A1C37",
+                "extra_color_cost": false
+            }
+        }
+    },
+    "RAV4": {
+        "Display_Name": "RAV4",
+        "MSRP": "28850",
+        "Category": "crossovers,Crossovers & SUVs",
+        "City_MPG": "27",
+        "Combined_Mileage": "30",
+        "Hwy_MPG": "35",
+        "ImageURL": "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/jellies/relative/2025/rav4/base.png",
+        "Seating": "5",
+        "Year": "2025",
+        "Range": null,
+        "Colors": {
+            "Cavalry_Blue/Midnight_Black_Metallic_roof_": {
+                "hex": "2A5180",
+                "extra_color_cost": false
+            },
+            "Magnetic_Gray_Metallic_": {
+                "hex": "494848",
+                "extra_color_cost": false
+            },
+            "Wind_Chill_Pearl_": {
+                "hex": "F3F2F2",
+                "extra_color_cost": true
+            },
+            "Ice_Cap_": {
+                "hex": "FFFFFF",
+                "extra_color_cost": false
+            },
+            "Cavalry_Blue_": {
+                "hex": "2A5180",
+                "extra_color_cost": false
+            },
+            "Midnight_Black_Metallic_": {
+                "hex": "00031E",
+                "extra_color_cost": false
+            },
+            "Ruby_Flare_Pearl_": {
+                "hex": "740000",
+                "extra_color_cost": true
+            },
+            "Blueprint_": {
+                "hex": "1E2548",
+                "extra_color_cost": false
+            },
+            "Silver_Sky_Metallic_": {
+                "hex": "C6C8CC",
+                "extra_color_cost": false
+            },
+            "Wind_Chill_Pearl/Midnight_Black_Metallic_roof_": {
+                "hex": "E3E9E9",
+                "extra_color_cost": true
+            },
+            "Silver_Sky_Metallic/Midnight_Black_Metallic_roof_": {
+                "hex": "C6C8CC",
+                "extra_color_cost": false
+            },
+            "Magnetic_Gray_Metallic/Midnight_Black_Metallic_roof_": {
+                "hex": "494848",
+                "extra_color_cost": false
+            },
+            "Army_Green/Midnight_Black_Metallic_roof_": {
+                "hex": "2A3A2A",
+                "extra_color_cost": true
+            },
+            "Ice_Cap/Midnight_Black_Metallic_roof_": {
+                "hex": "FFFFFF",
+                "extra_color_cost": true
+            }
+        }
+    },
+    "RAV4 Hybrid": {
+        "Display_Name": "RAV4 Hybrid",
+        "MSRP": "31900",
+        "Category": "crossovers,Electrified,Crossovers & SUVs",
+        "City_MPG": "41",
+        "Combined_Mileage": "39",
+        "Hwy_MPG": "38",
+        "ImageURL": "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/jellies/relative/2025/rav4hybrid/base.png",
+        "Seating": "5",
+        "Year": "2025",
+        "Range": null,
+        "Colors": {
+            "Cavalry_Blue/Midnight_Black_Metallic_roof_": {
+                "hex": "2A5180",
+                "extra_color_cost": false
+            },
+            "Magnetic_Gray_Metallic_": {
+                "hex": "494848",
+                "extra_color_cost": false
+            },
+            "Wind_Chill_Pearl_": {
+                "hex": "F3F2F2",
+                "extra_color_cost": true
+            },
+            "Ice_Cap_": {
+                "hex": "FFFFFF",
+                "extra_color_cost": false
+            },
+            "Cavalry_Blue_": {
+                "hex": "2A5180",
+                "extra_color_cost": false
+            },
+            "Midnight_Black_Metallic_": {
+                "hex": "00031E",
+                "extra_color_cost": false
+            },
+            "Ruby_Flare_Pearl_": {
+                "hex": "740000",
+                "extra_color_cost": true
+            },
+            "Blueprint_": {
+                "hex": "1E2548",
+                "extra_color_cost": false
+            },
+            "Silver_Sky_Metallic_": {
+                "hex": "C6C8CC",
+                "extra_color_cost": false
+            },
+            "Wind_Chill_Pearl/Midnight_Black_Metallic_roof_": {
+                "hex": "E3E9E9",
+                "extra_color_cost": true
+            },
+            "Silver_Sky_Metallic/Midnight_Black_Metallic_roof_": {
+                "hex": "C6C8CC",
+                "extra_color_cost": false
+            },
+            "Magnetic_Gray_Metallic/Midnight_Black_Metallic_roof_": {
+                "hex": "494848",
+                "extra_color_cost": false
+            },
+            "Army_Green/Midnight_Black_Metallic_roof_": {
+                "hex": "2A3A2A",
+                "extra_color_cost": true
+            },
+            "Ice_Cap/Midnight_Black_Metallic_roof_": {
+                "hex": "FFFFFF",
+                "extra_color_cost": true
+            }
+        }
+    },
+    "RAV4 Plug-in Hybrid": {
+        "Display_Name": "RAV4 Plug-in Hybrid",
+        "MSRP": "43865",
+        "Category": "crossovers,Electrified,Crossovers & SUVs",
+        "City_MPG": "40",
+        "Combined_Mileage": "38",
+        "Hwy_MPG": "36",
+        "ImageURL": "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/jellies/relative/2025/rav4pluginhybrid/base.png",
+        "Seating": "5",
+        "Year": "2025",
+        "Range": null,
+        "Colors": {
+            "Supersonic_Red/Midnight_Black_Metallic_Roof_": {
+                "hex": "E20500",
+                "extra_color_cost": true
+            },
+            "Silver_Sky_Metallic/Midnight_Black_Metallic_Roof_": {
+                "hex": "C6C8CC",
+                "extra_color_cost": false
+            },
+            "Blueprint/Midnight_Black_Metallic_Roof_": {
+                "hex": "1E2548",
+                "extra_color_cost": false
+            },
+            "Silver_Sky_Metallic_": {
+                "hex": "C6C8CC",
+                "extra_color_cost": false
+            },
+            "Blueprint_": {
+                "hex": "1E2548",
+                "extra_color_cost": false
+            },
+            "Midnight_Black_Metallic_": {
+                "hex": "00031E",
+                "extra_color_cost": false
+            },
+            "Ice_Cap_": {
+                "hex": "FFFFFF",
+                "extra_color_cost": false
+            },
+            "Magnetic_Gray_Metallic/Midnight_Black_Metallic_Roof_": {
+                "hex": "494848",
+                "extra_color_cost": false
+            },
+            "Supersonic_Red_": {
+                "hex": "E20500",
+                "extra_color_cost": true
+            },
+            "Magnetic_Gray_Metallic_": {
+                "hex": "494848",
+                "extra_color_cost": false
+            },
+            "Wind_Chill_Pearl/Midnight_Black_Metallic_Roof_": {
+                "hex": "E3E9E9",
+                "extra_color_cost": true
+            }
+        }
+    },
+    "Sequoia": {
+        "Display_Name": "Sequoia",
+        "MSRP": "62425",
+        "Category": "suvs,Electrified,Crossovers & SUVs",
+        "City_MPG": "21",
+        "Combined_Mileage": "22",
+        "Hwy_MPG": "24",
+        "ImageURL": "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/jellies/relative/2025/sequoia/base.png",
+        "Seating": "8",
+        "Year": "2025",
+        "Range": null,
+        "Colors": {
+            "Wind_Chill_Pearl_": {
+                "hex": "E3E9E9",
+                "extra_color_cost": true
+            },
+            "Blueprint_": {
+                "hex": "1E2548",
+                "extra_color_cost": false
+            },
+            "Ice_Cap_": {
+                "hex": "FFFFFF",
+                "extra_color_cost": false
+            },
+            "Celestial_Silver_Metallic_": {
+                "hex": "828387",
+                "extra_color_cost": false
+            },
+            "Magnetic_Gray_Metallic_": {
+                "hex": "494848",
+                "extra_color_cost": false
+            },
+            "Midnight_Black_Metallic_": {
+                "hex": "00031E",
+                "extra_color_cost": false
+            },
+            "Supersonic_Red_": {
+                "hex": "E20500",
+                "extra_color_cost": true
+            },
+            "Lunar_Rock_": {
+                "hex": "949B96",
+                "extra_color_cost": false
+            },
+            "Terra_": {
+                "hex": "652708",
+                "extra_color_cost": false
+            },
+            "Mudbath_": {
+                "hex": "604F46",
+                "extra_color_cost": false
+            }
+        }
+    },
+    "Sienna": {
+        "Display_Name": "Sienna",
+        "MSRP": "39185",
+        "Category": "minivans,Electrified,Cars & Minivan",
+        "City_MPG": "36",
+        "Combined_Mileage": "36",
+        "Hwy_MPG": "36",
+        "ImageURL": "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/jellies/relative/2025/sienna/base.png",
+        "Seating": "8",
+        "Year": "2025",
+        "Range": null,
+        "Colors": {
+            "Celestial_Silver_Metallic_": {
+                "hex": "828387",
+                "extra_color_cost": false
+            },
+            "Ice_Cap_": {
+                "hex": "FFFFFF",
+                "extra_color_cost": false
+            },
+            "Wind_Chill_Pearl_": {
+                "hex": "F3F2F2",
+                "extra_color_cost": true
+            },
+            "Cement_": {
+                "hex": "737B82",
+                "extra_color_cost": false
+            },
+            "Magnetic_Gray_Metallic_": {
+                "hex": "494848",
+                "extra_color_cost": false
+            },
+            "Midnight_Black_Metallic_": {
+                "hex": "00031E",
+                "extra_color_cost": false
+            },
+            "Ruby_Flare_Pearl_": {
+                "hex": "740000",
+                "extra_color_cost": true
+            },
+            "Cypress_": {
+                "hex": "2D4C36",
+                "extra_color_cost": false
+            },
+            "Blueprint_": {
+                "hex": "1E2548",
+                "extra_color_cost": false
+            }
+        }
+    },
+    "Tacoma": {
+        "Display_Name": "Tacoma",
+        "MSRP": "31590",
+        "Category": "Trucks",
+        "City_MPG": "21",
+        "Combined_Mileage": "23",
+        "Hwy_MPG": "26",
+        "ImageURL": "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/jellies/relative/2025/tacoma/base.png",
+        "Seating": "5",
+        "Year": "2025",
+        "Range": null,
+        "Colors": {
+            "Mudbath_with_Black_roof_": {
+                "hex": "604F46",
+                "extra_color_cost": false
+            },
+            "Terra_": {
+                "hex": "652708",
+                "extra_color_cost": false
+            },
+            "Ice_Cap_with_Black_roof_": {
+                "hex": "FFFFFF",
+                "extra_color_cost": false
+            },
+            "Bronze_Oxide_": {
+                "hex": "857A6A",
+                "extra_color_cost": false
+            },
+            "Celestial_Silver_Metallic_": {
+                "hex": "828387",
+                "extra_color_cost": false
+            },
+            "Ice_Cap_": {
+                "hex": "FFFFFF",
+                "extra_color_cost": false
+            },
+            "Underground_with_Black_roof_": {
+                "hex": "7E7B7D",
+                "extra_color_cost": false
+            },
+            "Wind_Chill_Pearl_": {
+                "hex": "E3E9E9",
+                "extra_color_cost": true
+            },
+            "Underground_": {
+                "hex": "7E7B7D",
+                "extra_color_cost": false
+            },
+            "Blue_Crush_Metallic_": {
+                "hex": "111D69",
+                "extra_color_cost": false
+            },
+            "Black_": {
+                "hex": "000000",
+                "extra_color_cost": false
+            },
+            "Supersonic_Red_": {
+                "hex": "E20500",
+                "extra_color_cost": true
+            }
+        }
+    },
+    "Tacoma i-FORCE MAX": {
+        "Display_Name": "Tacoma i-FORCE MAX",
+        "MSRP": "46320",
+        "Category": "Electrified,Trucks",
+        "City_MPG": "23",
+        "Combined_Mileage": "23",
+        "Hwy_MPG": "24",
+        "ImageURL": "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/jellies/relative/2025/tacomahybrid/base.png",
+        "Seating": "5",
+        "Year": "2025",
+        "Range": null,
+        "Colors": {
+            "Mudbath_with_Black_roof_": {
+                "hex": "604F46",
+                "extra_color_cost": false
+            },
+            "Terra_": {
+                "hex": "652708",
+                "extra_color_cost": false
+            },
+            "Ice_Cap_with_Black_roof_": {
+                "hex": "FFFFFF",
+                "extra_color_cost": false
+            },
+            "Bronze_Oxide_": {
+                "hex": "857A6A",
+                "extra_color_cost": false
+            },
+            "Celestial_Silver_Metallic_": {
+                "hex": "828387",
+                "extra_color_cost": false
+            },
+            "Ice_Cap_": {
+                "hex": "FFFFFF",
+                "extra_color_cost": false
+            },
+            "Underground_with_Black_roof_": {
+                "hex": "7E7B7D",
+                "extra_color_cost": false
+            },
+            "Wind_Chill_Pearl_": {
+                "hex": "E3E9E9",
+                "extra_color_cost": true
+            },
+            "Underground_": {
+                "hex": "7E7B7D",
+                "extra_color_cost": false
+            },
+            "Blue_Crush_Metallic_": {
+                "hex": "111D69",
+                "extra_color_cost": false
+            },
+            "Black_": {
+                "hex": "000000",
+                "extra_color_cost": false
+            },
+            "Supersonic_Red_": {
+                "hex": "E20500",
+                "extra_color_cost": true
+            }
+        }
+    },
+    "Toyota Crown": {
+        "Display_Name": "Toyota Crown",
+        "MSRP": "41440",
+        "Category": "Electrified,Cars & Minivan,cars",
+        "City_MPG": "42",
+        "Combined_Mileage": "41",
+        "Hwy_MPG": "41",
+        "ImageURL": "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/jellies/relative/2025/toyotacrown/base.png",
+        "Seating": "5",
+        "Year": "2025",
+        "Range": null,
+        "Colors": {
+            "Supersonic_Red_with_Black_bi-tone_": {
+                "hex": "E20500",
+                "extra_color_cost": true
+            },
+            "Bronze_Age_": {
+                "hex": "936445",
+                "extra_color_cost": true
+            },
+            "Storm_Cloud\u00a0[illustrative]_": {
+                "hex": "22323F",
+                "extra_color_cost": false
+            },
+            "Black_": {
+                "hex": "000000",
+                "extra_color_cost": true
+            },
+            "Heavy_Metal_": {
+                "hex": "545251",
+                "extra_color_cost": true
+            },
+            "Supersonic_Red_": {
+                "hex": "E20500",
+                "extra_color_cost": true
+            },
+            "Oxygen_White_": {
+                "hex": "FFFCF9",
+                "extra_color_cost": true
+            },
+            "Oxygen_White_with_Black_bi-tone_": {
+                "hex": "FFFCF9",
+                "extra_color_cost": true
+            },
+            "Bronze_Age_with_Black_bi-tone_": {
+                "hex": "936445",
+                "extra_color_cost": true
+            },
+            "Heavy_Metal_with_Black_bi-tone_": {
+                "hex": "545251",
+                "extra_color_cost": true
+            }
+        }
+    },
+    "Toyota Crown Signia": {
+        "Display_Name": "Toyota Crown Signia",
+        "MSRP": "43590",
+        "Category": "crossovers,Electrified,Crossovers & SUVs",
+        "City_MPG": "39",
+        "Combined_Mileage": "38",
+        "Hwy_MPG": "37",
+        "ImageURL": "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/jellies/relative/2025/toyotacrownsignia/base.png",
+        "Seating": "5",
+        "Year": "2025",
+        "Range": null,
+        "Colors": {
+            "Storm_Cloud_": {
+                "hex": "22323F",
+                "extra_color_cost": false
+            },
+            "Bronze_Age_": {
+                "hex": "936445",
+                "extra_color_cost": true
+            },
+            "Finish_Line_Red_": {
+                "hex": "A11D1D",
+                "extra_color_cost": true
+            },
+            "Oxygen_White_": {
+                "hex": "FFFCF9",
+                "extra_color_cost": true
+            },
+            "Black_": {
+                "hex": "000000",
+                "extra_color_cost": false
+            }
+        }
+    },
+    "Tundra": {
+        "Display_Name": "Tundra",
+        "MSRP": "40090",
+        "Category": "Trucks",
+        "City_MPG": "18",
+        "Combined_Mileage": "20",
+        "Hwy_MPG": "23",
+        "ImageURL": "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/jellies/relative/2025/tundra/base.png",
+        "Seating": "5",
+        "Year": "2025",
+        "Range": null,
+        "Colors": {
+            "Mudbath_": {
+                "hex": "604F46",
+                "extra_color_cost": false
+            },
+            "Ice_Cap_": {
+                "hex": "FFFFFF",
+                "extra_color_cost": false
+            },
+            "Wind_Chill_Pearl_": {
+                "hex": "E3E9E9",
+                "extra_color_cost": true
+            },
+            "Magnetic_Gray_Metallic_": {
+                "hex": "494848",
+                "extra_color_cost": false
+            },
+            "Celestial_Silver_Metallic_": {
+                "hex": "828387",
+                "extra_color_cost": false
+            },
+            "Midnight_Black_Metallic_": {
+                "hex": "00031E",
+                "extra_color_cost": false
+            },
+            "Supersonic_Red_": {
+                "hex": "E20500",
+                "extra_color_cost": true
+            },
+            "Smoked_Mesquite_": {
+                "hex": "412C1B",
+                "extra_color_cost": false
+            },
+            "Lunar_Rock_": {
+                "hex": "949B96",
+                "extra_color_cost": false
+            },
+            "Blueprint_": {
+                "hex": "1E2548",
+                "extra_color_cost": false
+            },
+            "Terra_": {
+                "hex": "652708",
+                "extra_color_cost": false
+            }
+        }
+    },
+    "Tundra i-FORCE MAX": {
+        "Display_Name": "Tundra i-FORCE MAX",
+        "MSRP": "58005",
+        "Category": "Electrified,Trucks",
+        "City_MPG": "20",
+        "Combined_Mileage": "22",
+        "Hwy_MPG": "24",
+        "ImageURL": "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/jellies/relative/2025/tundrahybrid/base.png",
+        "Seating": "5",
+        "Year": "2025",
+        "Range": null,
+        "Colors": {
+            "Mudbath_": {
+                "hex": "604F46",
+                "extra_color_cost": false
+            },
+            "Ice_Cap_": {
+                "hex": "FFFFFF",
+                "extra_color_cost": false
+            },
+            "Wind_Chill_Pearl_": {
+                "hex": "E3E9E9",
+                "extra_color_cost": true
+            },
+            "Magnetic_Gray_Metallic_": {
+                "hex": "494848",
+                "extra_color_cost": false
+            },
+            "Celestial_Silver_Metallic_": {
+                "hex": "828387",
+                "extra_color_cost": false
+            },
+            "Midnight_Black_Metallic_": {
+                "hex": "00031E",
+                "extra_color_cost": false
+            },
+            "Supersonic_Red_": {
+                "hex": "E20500",
+                "extra_color_cost": true
+            },
+            "Smoked_Mesquite_": {
+                "hex": "412C1B",
+                "extra_color_cost": false
+            },
+            "Lunar_Rock_": {
+                "hex": "949B96",
+                "extra_color_cost": false
+            },
+            "Blueprint_": {
+                "hex": "1E2548",
+                "extra_color_cost": false
+            },
+            "Terra_": {
+                "hex": "652708",
+                "extra_color_cost": false
+            }
+        }
+    },
+    "Venza": {
+        "Display_Name": "Venza",
+        "MSRP": "35070",
+        "Category": "crossovers,Electrified,Crossovers & SUVs",
+        "City_MPG": "40",
+        "Combined_Mileage": "39",
+        "Hwy_MPG": "37",
+        "ImageURL": "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/jellies/relative/2024/venza/base.png",
+        "Seating": "5",
+        "Year": "2024",
+        "Range": null,
+        "Colors": {
+            "Ruby_Flare_Pearl_": {
+                "hex": "740000",
+                "extra_color_cost": true
+            },
+            "Wind_Chill_Pearl_": {
+                "hex": "E3E9E9",
+                "extra_color_cost": true
+            },
+            "Celestial_Black_": {
+                "hex": "1D1C1C",
+                "extra_color_cost": true
+            },
+            "Coastal_Gray_Metallic_": {
+                "hex": "6D7A82",
+                "extra_color_cost": false
+            },
+            "Blueprint_": {
+                "hex": "1E2548",
+                "extra_color_cost": false
+            },
+            "Titanium_Glow_": {
+                "hex": "BEB8B8",
+                "extra_color_cost": false
+            },
+            "Black_": {
+                "hex": "000000",
+                "extra_color_cost": false
+            }
+        }
+    }
+}
