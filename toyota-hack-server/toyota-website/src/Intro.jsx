@@ -1,10 +1,12 @@
 import React, { useState } from "react";
 import "./style/Intro.css";
 import ToyotaLogo from "./assets/Toyota_logo_Red.svg.png";
+import ChatBot from "./ChatBot.jsx";
 
 function Intro() {
   const [showIntro, setShowIntro] = useState(true); // Controls the intro message visibility
   const [showImage, setShowImage] = useState(false); // Controls the image visibility
+  const [showChatbot, setShowChatbot] = useState(false); // Controls the chatbox visibility
 
   const handleIntroFadeOut = () => {
     setShowIntro(false); // Trigger the fade-out for the intro message
@@ -15,6 +17,10 @@ function Intro() {
 
   const handleImageFadeOut = () => {
     setShowImage(false); // Trigger fade-out for the image
+
+    setTimeout(() => {
+      setShowChatbot(true); // Show the chatbot after the image fades out
+    }, 1000); // Match the fade-out duration
   };
 
   return (
@@ -36,8 +42,11 @@ function Intro() {
           alt="Toyota Logo"
           className={`image ${!showImage ? "fade-out" : "fade-in"}`}
           onClick={handleImageFadeOut}
+          
         />
+        
       )}
+      {showChatbot && <ChatBot />} 
     </div>
   );
 }
