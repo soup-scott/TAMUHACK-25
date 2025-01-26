@@ -32,9 +32,12 @@ def generate_color_dict(url):
             extra_color_cost = True
             label = ""
             for j in range(len(labellist)-1):
-                label += labellist[j] + " "
+                label += labellist[j] + "_"
         else:
             extra_color_cost = False
+            label = ""
+            for j in range(len(labellist)):
+                label += labellist[j] + "_"
         color_dict[label] = {
             "hex": hex,
             "extra_color_cost": extra_color_cost
@@ -78,13 +81,13 @@ for i in s:
         color_dict = {"white": {"hex": "#FFFFFF", "extra_color_cost": False}}
     
     cardict = {
-        "Display Name": displayname,
+        "Display_Name": displayname,
         "MSRP": msrp,
         "Category": categoy,
-        "City MPG": citympg,
-        "Combined Mileage": combinedmilage,
-        "Hwy MPG": hwympg,
-        "Image URL": imageurl,
+        "City_MPG": citympg,
+        "Combined_Mileage": combinedmilage,
+        "Hwy_MPG": hwympg,
+        "Image_URL": imageurl,
         "Seating": seating,
         "Year": year,
         "Range": data_range,
