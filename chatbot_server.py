@@ -17,6 +17,10 @@ from llama_index.core.schema import NodeWithScore
 from llama_index.core.memory import ChatMemoryBuffer
 from llama_index.core.readers.json import JSONReader
 
+from flask import Flask, request, jsonify
+from flask_cors import CORS
+
+
 class NodeMergerComponent(CustomQueryComponent):
     """Custom component to merge node lists from two retrievers"""
     # def _run_component(self, **kwargs):
@@ -39,21 +43,43 @@ class NodeMergerComponent(CustomQueryComponent):
 
 #openAI set up
 load_dotenv()
-os.environ["OPENAI_API_KEY"] = "Boo Hoo you're asking for my key"
+os.environ["OPENAI_API_KEY"] = "no"
 
-# documents stuff to copy over wrote
-documents = SimpleDirectoryReader("./data").load_data()
+# def load_files():
+#     PERSIST_DIR = "./storage"
 
-#creating embeddings
-index = VectorStoreIndex.from_documents(
-    documents,
-    embed_model=OpenAIEmbedding(
-        model="text-embedding-3-large", embed_batch_size=256 #look at these parameters to see if they fit
-    ),
-)
+#     if not os.path.exists(PERSIST_DIR):
+        # #initialize JSONreader and load JSON
+        # reader = JSONReader(levels_back=0, collapse_length=None, ensure_ascii=False, is_jsonl=False, clean_json=True)
+        # documents = reader.load_data(input_file="./data/test.json", extra_info={})
+
+        # #load pdf docs
+        # documents += SimpleDirectoryReader("./data").load_data()
+        # print("With a total of " + str(len(documents)) + " documents")
+#         #create an index for querying
+#         index = VectorStoreIndex.from_documents(
+#             documents,
+#             embed_model=OpenAIEmbedding(
+#                 model="text-embedding-3-large", embed_batch_size=256 #look at these parameters to see if they fit
+#             ),
+#         )
+
+#         #store in folder for future use
+#         index.storage_context.persist(persist_dir=PERSIST_DIR)
+#     else:
+#         storage_context = StorageContext.from_defaults(persist_dir=PERSIST_DIR)
+#         index = load_index_from_storage(storage_context)
+
+#     return index
 
 def load_files():
     PERSIST_DIR = "./storage"
+    # Explicitly set embedding dimensions
+    embed_model = OpenAIEmbedding(
+        model="text-embedding-3-large",
+        dimensions=1536,  # Add this line to force 1536 dimensions
+        embed_batch_size=256
+    )
 
     if not os.path.exists(PERSIST_DIR):
         #initialize JSONreader and load JSON
@@ -63,21 +89,22 @@ def load_files():
         #load pdf docs
         documents += SimpleDirectoryReader("./data").load_data()
         print("With a total of " + str(len(documents)) + " documents")
-        #create an index for querying
         index = VectorStoreIndex.from_documents(
             documents,
-            embed_model=OpenAIEmbedding(
-                model="text-embedding-3-large", embed_batch_size=256 #look at these parameters to see if they fit
-            ),
+            embed_model=embed_model  # Use configured model
         )
-
-        #store in folder for future use
         index.storage_context.persist(persist_dir=PERSIST_DIR)
     else:
         storage_context = StorageContext.from_defaults(persist_dir=PERSIST_DIR)
-        index = load_index_from_storage(storage_context)
-
+        # Load with same embedding config
+        index = load_index_from_storage(
+            storage_context,
+            embed_model=embed_model  # Critical addition
+        )
+    
     return index
+
+index = load_files()
 
 #Creating Query Pipeline
 
@@ -113,6 +140,17 @@ node_merger = NodeMergerComponent()
 retriever = index.as_retriever(similarity_top_k=6) #double check this
 
 reranker = ColbertRerank(top_n=3) #^
+
+# try:
+#     reranker = ColbertRerank(
+#         top_n=3,
+#         colbert_url="http://localhost:8000"  # Default ColBERT server URL
+#     )
+# except Exception as e:
+#     print(f"ColBERT Error: {str(e)}")
+#     # Fallback to simple reranker
+#     from llama_index.core.postprocessor import SentenceTransformerRerank
+#     reranker = SentenceTransformerRerank(top_n=3)
 
 
 #defining the custom query component
@@ -188,7 +226,7 @@ class ResponseWithChatHistory(CustomQueryComponent):
             chat_history, nodes, query_str
         )
 
-        response = llm.chat(prepared_context)
+        response = self.llm.chat(prepared_context)
 
         return {"response": response}
 
@@ -226,6 +264,7 @@ pipeline = QueryPipeline(
         "reranker": reranker,
         "response_component": response_component,
     },
+    output_key="response", # Explicitly declare output key
     verbose=False,
 )
 # print(pipeline)
@@ -274,47 +313,175 @@ pipeline.add_link(
 )
 
 
-pipeline_memory = ChatMemoryBuffer.from_defaults(token_limit=8000)
+# pipeline_memory = ChatMemoryBuffer.from_defaults(token_limit=8000)
 
-# user_inputs = [
-#     "Hello!",
-#     "I'd like to get a car with a high gas milage, but I'm scared of hybrid cars?",
-#     "Do any of those come in yellow?",
-#     "Thanks, that what I needed to know!",
-# ]
-user_inputs = ["Hello!"]
+# # user_inputs = [
+# #     "Hello!",
+# #     "I'd like to get a car with a high gas milage, but I'm scared of hybrid cars?",
+# #     "Do any of those come in yellow?",
+# #     "Thanks, that what I needed to know!",
+# # ]
+# user_inputs = ["Hello!"]
 
-# test_nodes1 = retriever.retrieve("test query")
-# test_nodes2 = retriever.retrieve("another query")
-# print(type(test_nodes1)) 
+# # test_nodes1 = retriever.retrieve("test query")
+# # test_nodes2 = retriever.retrieve("another query")
+# # print(type(test_nodes1)) 
 
-for j, msg in enumerate(user_inputs):
+# for j, msg in enumerate(user_inputs):
     
-    # get memory
-    chat_history = pipeline_memory.get()
+#     # get memory
+#     chat_history = pipeline_memory.get()
 
-    # prepare inputs
-    chat_history_str = "\n".join([str(x) for x in chat_history])
+#     # prepare inputs
+#     chat_history_str = "\n".join([str(x) for x in chat_history])
 
-    #print(pipeline)
-    # run pipeline
-    response = pipeline.run(
-        query_str=msg,
-        chat_history=chat_history,
-        chat_history_str=chat_history_str,
-    )
+#     #print(pipeline)
+#     # run pipeline
+#     response = pipeline.run(
+#         query_str=msg,
+#         chat_history=chat_history,
+#         chat_history_str=chat_history_str,
+#     )
     
-    # update memory
-    user_msg = ChatMessage(role="user", content=msg)
-    pipeline_memory.put(user_msg)
-    print("User Message:")
-    if j >0:
-        print(str(user_msg))
+#     # update memory
+#     user_msg = ChatMessage(role="user", content=msg)
+#     pipeline_memory.put(user_msg)
+#     print("User Message:")
+#     if j >0:
+#         print(str(user_msg))
 
-    pipeline_memory.put(response.message)
-    print("Response:")
-    print(str(response.message))
-    print()
+#     pipeline_memory.put(response.message)
+#     print("Response:")
+#     print(str(response.message))
+#     print()
     
-    user_inputs.append(input())
+#     user_inputs.append(input())
 
+
+# Initialize Flask app
+app = Flask(__name__)
+CORS(app)  # Enable CORS for React frontend
+sessions = {}  # In-memory session storage
+
+@app.route('/start_session', methods=['POST'])
+def start_session():
+    session_id = os.urandom(16).hex()  # Generate unique session ID
+    sessions[session_id] = ChatMemoryBuffer.from_defaults(token_limit=8000)
+
+
+    return jsonify({'session_id': session_id})
+
+# @app.route('/chat', methods=['POST'])
+# def handle_chat():
+#     data = request.get_json()
+#     session_id = data.get('session_id')
+#     user_message = data.get('message')
+
+#     if not session_id or not user_message:
+#         return jsonify({'error': 'Missing session ID or message'}), 400
+
+#     memory = sessions.get(session_id)
+#     if not memory:
+#         return jsonify({'error': 'Invalid session ID'}), 404
+
+#     # Prepare inputs for pipeline
+#     chat_history = memory.get()
+#     # chat_history_str = "\n".join([str(msg) for msg in chat_history])
+#     chat_history_str = "\n".join([str(msg) for msg in chat_history]) if chat_history else "No history yet"
+
+#     try:
+#         print("user_message: ", user_message)
+#         print("chat_history: ", chat_history)
+#         print("chat_history_str: ", chat_history_str)
+#         print("session_id: ", session_id)
+#         response = pipeline.run(
+#             query_str=user_message,
+#             chat_history=chat_history,
+#             chat_history_str=chat_history_str
+#         )
+#     except Exception as e:
+#         return jsonify({'error': str(e)}), 500
+
+#     # Update memory with user input and AI response
+#     memory.put(ChatMessage(role="user", content=user_message))
+#     memory.put(response['response'].message)
+
+#     print(response['response'].message)
+
+#     return jsonify({
+#         'response': response['response'].message.content
+#     })
+
+@app.route('/chat', methods=['POST'])
+def handle_chat():
+    try:
+        data = request.get_json()
+        session_id = data.get('session_id')
+        user_message = data.get('message')
+
+        if not session_id or not user_message:
+            return jsonify({'error': 'Missing session ID or message'}), 400
+
+        memory = sessions.get(session_id)
+        if not memory:
+            return jsonify({'error': 'Invalid session ID'}), 404
+
+        # Get chat history with empty state handling
+        chat_history = memory.get()
+        chat_history_str = "\n".join([str(msg) for msg in chat_history]) if chat_history else "No history yet"
+
+        # Debug print inputs
+        print(f"\n--- Input Debug ---")
+        print(f"Session ID: {session_id}")
+        print(f"User Message: {user_message}")
+        print(f"Chat History: {chat_history}")
+        print(f"History String: {chat_history_str}")
+
+        # Run pipeline
+        response = pipeline.run(
+            query_str=user_message,
+            chat_history=chat_history,
+            chat_history_str=chat_history_str
+        )
+
+        # Debug print output
+        print("\n--- Pipeline Output ---")
+        # print(f"Response Type: {type(response)}")
+        # print(f"Response Keys: {dir(response)}")
+        # print(f"Response Keys: {vars(response)}")
+        if response and hasattr(response, 'message'):
+            message_obj = response.message  # Get the ChatMessage object
+            if message_obj and hasattr(message_obj, 'blocks'):
+                text_blocks = message_obj.blocks
+                if text_blocks:
+                    message_text = text_blocks[0].text  # Assuming the first block contains the text
+                    print(message_text)
+                else:
+                    print("No text blocks found.")
+            else:
+                print("No message key found.")
+        
+        # Update memory
+        memory.put(ChatMessage(role="user", content=user_message))
+
+        # Original error line:
+        # memory.put(response['response'].message)
+
+        # Corrected access:
+        # ai_response = response["response"]  # Get from pipeline output dict
+        memory.put(message_text)
+
+        return jsonify({
+            'response': message_text
+        })
+        
+    except Exception as e:
+        import traceback
+        traceback.print_exc()
+        return jsonify({
+            'error': str(e),
+            'traceback': traceback.format_exc()
+        }), 500
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=5000, debug=True)
