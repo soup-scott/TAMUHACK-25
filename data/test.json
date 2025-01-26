@@ -9,7 +9,45 @@
         "Image URL": "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/jellies/relative/2025/4runner/base.png",
         "Seating": "7",
         "Year": "2025",
-        "Range": null
+        "Range": null,
+        "Colors": {
+            "Ice Cap": {
+                "hex": "FFFFFF",
+                "extra_color_cost": false
+            },
+            "Wind Chill Pearl ": {
+                "hex": "E3E9E9",
+                "extra_color_cost": true
+            },
+            "Cutting Edge": {
+                "hex": "979A9B",
+                "extra_color_cost": false
+            },
+            "Underground": {
+                "hex": "292A2D",
+                "extra_color_cost": false
+            },
+            "Black": {
+                "hex": "000000",
+                "extra_color_cost": false
+            },
+            "Supersonic Red ": {
+                "hex": "E20500",
+                "extra_color_cost": true
+            },
+            "Mudbath": {
+                "hex": "604F46",
+                "extra_color_cost": false
+            },
+            "Everest": {
+                "hex": "243B3C",
+                "extra_color_cost": false
+            },
+            "Heritage Blue": {
+                "hex": "5091C3",
+                "extra_color_cost": false
+            }
+        }
     },
     "4Runner i-FORCE MAX": {
         "Display Name": "4Runner i-FORCE MAX",
@@ -21,7 +59,45 @@
         "Image URL": "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/jellies/relative/2025/4runnerhybrid/base.png",
         "Seating": "5",
         "Year": "2025",
-        "Range": null
+        "Range": null,
+        "Colors": {
+            "Ice Cap": {
+                "hex": "FFFFFF",
+                "extra_color_cost": false
+            },
+            "Wind Chill Pearl ": {
+                "hex": "E3E9E9",
+                "extra_color_cost": true
+            },
+            "Cutting Edge": {
+                "hex": "979A9B",
+                "extra_color_cost": false
+            },
+            "Underground": {
+                "hex": "292A2D",
+                "extra_color_cost": false
+            },
+            "Black": {
+                "hex": "000000",
+                "extra_color_cost": false
+            },
+            "Supersonic Red ": {
+                "hex": "E20500",
+                "extra_color_cost": true
+            },
+            "Mudbath": {
+                "hex": "604F46",
+                "extra_color_cost": false
+            },
+            "Everest": {
+                "hex": "243B3C",
+                "extra_color_cost": false
+            },
+            "Heritage Blue": {
+                "hex": "5091C3",
+                "extra_color_cost": false
+            }
+        }
     },
     "bZ4X": {
         "Display Name": "bZ4X",
@@ -33,7 +109,45 @@
         "Image URL": "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/jellies/relative/2025/bz4x/base.png",
         "Seating": "5",
         "Year": "2025",
-        "Range": "252"
+        "Range": "252",
+        "Colors": {
+            "Wind Chill Pearl ": {
+                "hex": "F3F2F2",
+                "extra_color_cost": true
+            },
+            "Elemental Silver Metallic ": {
+                "hex": "D1D4D7",
+                "extra_color_cost": true
+            },
+            "Heavy Metal ": {
+                "hex": "545251",
+                "extra_color_cost": true
+            },
+            "Supersonic Red ": {
+                "hex": "E20500",
+                "extra_color_cost": true
+            },
+            "Black": {
+                "hex": "000000",
+                "extra_color_cost": false
+            },
+            "Wind Chill Pearl with Black roof ": {
+                "hex": "F3F2F2",
+                "extra_color_cost": true
+            },
+            "Elemental Silver Metallic\u00a0with Black roof ": {
+                "hex": "D1D4D7",
+                "extra_color_cost": true
+            },
+            "Heavy Metal\u00a0with Black roof ": {
+                "hex": "545251",
+                "extra_color_cost": true
+            },
+            "Supersonic Red\u00a0with Black roof ": {
+                "hex": "E20500",
+                "extra_color_cost": true
+            }
+        }
     },
     "Camry": {
         "Display Name": "Camry",
@@ -45,7 +159,61 @@
         "Image URL": "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/jellies/relative/2025/camry/base.png",
         "Seating": "5",
         "Year": "2025",
-        "Range": null
+        "Range": null,
+        "Colors": {
+            "Ocean Gem": {
+                "hex": "1B4558",
+                "extra_color_cost": false
+            },
+            "Heavy Metal ": {
+                "hex": "535353",
+                "extra_color_cost": true
+            },
+            "Ice Cap": {
+                "hex": "FFFFFF",
+                "extra_color_cost": false
+            },
+            "Celestial Silver Metallic": {
+                "hex": "828387",
+                "extra_color_cost": false
+            },
+            "Midnight Black Metallic": {
+                "hex": "00031E",
+                "extra_color_cost": false
+            },
+            "Reservoir Blue": {
+                "hex": "1A1C37",
+                "extra_color_cost": false
+            },
+            "Supersonic Red ": {
+                "hex": "E20500",
+                "extra_color_cost": true
+            },
+            "Wind Chill Pearl ": {
+                "hex": "E3E9E9",
+                "extra_color_cost": true
+            },
+            "Underground": {
+                "hex": "7E7B7D",
+                "extra_color_cost": false
+            },
+            "Heavy Metal with Midnight Black Metallic roof ": {
+                "hex": "535353",
+                "extra_color_cost": true
+            },
+            "Ocean Gem with Midnight Black Metallic roof ": {
+                "hex": "1B4558",
+                "extra_color_cost": true
+            },
+            "Wind Chill Pearl with Midnight Black Metallic roof ": {
+                "hex": "E3E9E9",
+                "extra_color_cost": true
+            },
+            "Supersonic Red with Midnight Black Metallic roof ": {
+                "hex": "E20500",
+                "extra_color_cost": true
+            }
+        }
     },
     "Corolla": {
         "Display Name": "Corolla",
@@ -57,7 +225,69 @@
         "Image URL": "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/jellies/relative/2025/corolla/base.png",
         "Seating": "5",
         "Year": "2025",
-        "Range": null
+        "Range": null,
+        "Colors": {
+            "Underground with Midnight Black Metallic roof ": {
+                "hex": "7E7B7D",
+                "extra_color_cost": true
+            },
+            "Blueprint": {
+                "hex": "1E2548",
+                "extra_color_cost": false
+            },
+            "Wind Chill Pearl ": {
+                "hex": "E3E9E9",
+                "extra_color_cost": true
+            },
+            "Ice Cap": {
+                "hex": "FFFFFF",
+                "extra_color_cost": false
+            },
+            "Ruby Flare Pearl ": {
+                "hex": "740000",
+                "extra_color_cost": true
+            },
+            "Classic Silver Metallic": {
+                "hex": "808080",
+                "extra_color_cost": false
+            },
+            "Celestite": {
+                "hex": "636B79",
+                "extra_color_cost": false
+            },
+            "Midnight Black Metallic": {
+                "hex": "00031E",
+                "extra_color_cost": false
+            },
+            "Underground": {
+                "hex": "7E7B7D",
+                "extra_color_cost": false
+            },
+            "Blueprint with Midnight Black Metallic roof ": {
+                "hex": "1E2548",
+                "extra_color_cost": true
+            },
+            "Wind Chill Pearl with Midnight Black Metallic roof ": {
+                "hex": "E3E9E9",
+                "extra_color_cost": true
+            },
+            "Ice Cap with Midnight Black Metallic roof ": {
+                "hex": "FFFFFF",
+                "extra_color_cost": true
+            },
+            "Ruby Flare Pearl with Midnight Black Metallic roof ": {
+                "hex": "740000",
+                "extra_color_cost": true
+            },
+            "Classic Silver Metallic with Midnight Black Metallic roof ": {
+                "hex": "808080",
+                "extra_color_cost": true
+            },
+            "Celestite with Midnight Black Metallic roof ": {
+                "hex": "636B79",
+                "extra_color_cost": true
+            }
+        }
     },
     "Corolla Cross": {
         "Display Name": "Corolla Cross",
@@ -69,7 +299,53 @@
         "Image URL": "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/jellies/relative/2025/corollacross/base.png",
         "Seating": "5",
         "Year": "2025",
-        "Range": null
+        "Range": null,
+        "Colors": {
+            "Soul Red Crystal/Jet Black roof ": {
+                "hex": "80071A",
+                "extra_color_cost": true
+            },
+            "Celestite": {
+                "hex": "636B79",
+                "extra_color_cost": false
+            },
+            "Wind Chill Pearl ": {
+                "hex": "E3E9E9",
+                "extra_color_cost": true
+            },
+            "Cypress": {
+                "hex": "2D4C36",
+                "extra_color_cost": false
+            },
+            "Soul Red Crystal ": {
+                "hex": "80071A",
+                "extra_color_cost": true
+            },
+            "Jet Black": {
+                "hex": "121212",
+                "extra_color_cost": false
+            },
+            "Sonic Silver": {
+                "hex": "A2A8AF",
+                "extra_color_cost": false
+            },
+            "Blue Crush Metallic": {
+                "hex": "111D69",
+                "extra_color_cost": false
+            },
+            "Wind Chill Pearl / Jet Black roof ": {
+                "hex": "E3E9E9",
+                "extra_color_cost": true
+            },
+            "Blue Crush Metallic/Jet Black roof ": {
+                "hex": "111D69",
+                "extra_color_cost": true
+            },
+            "Sonic Silver/Jet Black roof ": {
+                "hex": "A2A8AF",
+                "extra_color_cost": true
+            }
+        }
     },
     "Corolla Cross Hybrid": {
         "Display Name": "Corolla Cross Hybrid",
@@ -81,7 +357,49 @@
         "Image URL": "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/jellies/relative/2025/corollacrosshybrid/base.png",
         "Seating": "5",
         "Year": "2025",
-        "Range": null
+        "Range": null,
+        "Colors": {
+            "Soul Red Crystal/Jet Black roof ": {
+                "hex": "80071A",
+                "extra_color_cost": true
+            },
+            "Celestite": {
+                "hex": "636B79",
+                "extra_color_cost": false
+            },
+            "Wind Chill Pearl ": {
+                "hex": "E3E9E9",
+                "extra_color_cost": true
+            },
+            "Soul Red Crystal ": {
+                "hex": "80071A",
+                "extra_color_cost": true
+            },
+            "Jet Black": {
+                "hex": "121212",
+                "extra_color_cost": false
+            },
+            "Sonic Silver": {
+                "hex": "A2A8AF",
+                "extra_color_cost": false
+            },
+            "Blue Crush Metallic": {
+                "hex": "111D69",
+                "extra_color_cost": false
+            },
+            "Wind Chill Pearl / Jet Black roof ": {
+                "hex": "E3E9E9",
+                "extra_color_cost": true
+            },
+            "Blue Crush Metallic/Jet Black roof ": {
+                "hex": "111D69",
+                "extra_color_cost": true
+            },
+            "Sonic Silver/Jet Black roof ": {
+                "hex": "A2A8AF",
+                "extra_color_cost": true
+            }
+        }
     },
     "Corolla Hatchback": {
         "Display Name": "Corolla Hatchback",
@@ -93,7 +411,61 @@
         "Image URL": "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/jellies/relative/2025/corollahatchback/base.png",
         "Seating": "5",
         "Year": "2025",
-        "Range": null
+        "Range": null,
+        "Colors": {
+            "Wind Chill Pearl with Midnight Black Metallic roof ": {
+                "hex": "E3E9E9",
+                "extra_color_cost": true
+            },
+            "Blue Crush Metallic": {
+                "hex": "111D69",
+                "extra_color_cost": false
+            },
+            "Wind Chill Pearl ": {
+                "hex": "E3E9E9",
+                "extra_color_cost": true
+            },
+            "Ice Cap": {
+                "hex": "FFFFFF",
+                "extra_color_cost": false
+            },
+            "Classic Silver Metallic": {
+                "hex": "808080",
+                "extra_color_cost": false
+            },
+            "Magnetic Gray Metallic": {
+                "hex": "494848",
+                "extra_color_cost": false
+            },
+            "Midnight Black Metallic": {
+                "hex": "00031E",
+                "extra_color_cost": false
+            },
+            "Finish Line Red ": {
+                "hex": "A5242D",
+                "extra_color_cost": true
+            },
+            "Inferno": {
+                "hex": "D63400",
+                "extra_color_cost": false
+            },
+            "Classic Silver Metallic with Midnight Black Metallic roof ": {
+                "hex": "808080",
+                "extra_color_cost": true
+            },
+            "Magnetic Gray Metallic with Midnight Black Metallic roof ": {
+                "hex": "494848",
+                "extra_color_cost": true
+            },
+            "Finish Line Red with Midnight Black Metallic roof ": {
+                "hex": "A5242D",
+                "extra_color_cost": true
+            },
+            "Blue Crush Metallic with Midnight Black Metallic roof ": {
+                "hex": "111D69",
+                "extra_color_cost": true
+            }
+        }
     },
     "Corolla Hybrid": {
         "Display Name": "Corolla Hybrid",
@@ -105,7 +477,41 @@
         "Image URL": "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/jellies/relative/2025/corollahybrid/base.png",
         "Seating": "5",
         "Year": "2025",
-        "Range": null
+        "Range": null,
+        "Colors": {
+            "Blueprint": {
+                "hex": "1E2548",
+                "extra_color_cost": false
+            },
+            "Wind Chill Pearl ": {
+                "hex": "E3E9E9",
+                "extra_color_cost": true
+            },
+            "Ice Cap": {
+                "hex": "FFFFFF",
+                "extra_color_cost": false
+            },
+            "Ruby Flare Pearl ": {
+                "hex": "740000",
+                "extra_color_cost": true
+            },
+            "Classic Silver Metallic": {
+                "hex": "808080",
+                "extra_color_cost": false
+            },
+            "Celestite": {
+                "hex": "636B79",
+                "extra_color_cost": false
+            },
+            "Midnight Black Metallic": {
+                "hex": "00031E",
+                "extra_color_cost": false
+            },
+            "Underground": {
+                "hex": "7E7B7D",
+                "extra_color_cost": false
+            }
+        }
     },
     "GR Corolla": {
         "Display Name": "GR Corolla",
@@ -117,7 +523,25 @@
         "Image URL": "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/jellies/relative/2025/grcorolla/base.png",
         "Seating": "5",
         "Year": "2025",
-        "Range": null
+        "Range": null,
+        "Colors": {
+            "Supersonic Red ": {
+                "hex": "E20500",
+                "extra_color_cost": true
+            },
+            "Heavy Metal ": {
+                "hex": "545251",
+                "extra_color_cost": true
+            },
+            "Ice Cap": {
+                "hex": "FFFFFF",
+                "extra_color_cost": false
+            },
+            "Black": {
+                "hex": "000000",
+                "extra_color_cost": false
+            }
+        }
     },
     "GR Supra": {
         "Display Name": "GR Supra",
@@ -129,7 +553,25 @@
         "Image URL": "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/jellies/relative/2025/grsupra/base.png",
         "Seating": "2",
         "Year": "2025",
-        "Range": null
+        "Range": null,
+        "Colors": {
+            "Stratosphere ": {
+                "hex": "100C56",
+                "extra_color_cost": true
+            },
+            "Absolute Zero": {
+                "hex": "EBEAE5",
+                "extra_color_cost": false
+            },
+            "Nocturnal": {
+                "hex": "161617",
+                "extra_color_cost": false
+            },
+            "Renaissance Red 2.0": {
+                "hex": "B61E0D",
+                "extra_color_cost": false
+            }
+        }
     },
     "GR86": {
         "Display Name": "GR86",
@@ -141,7 +583,37 @@
         "Image URL": "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/jellies/relative/2025/gr86/base.png",
         "Seating": "4",
         "Year": "2025",
-        "Range": null
+        "Range": null,
+        "Colors": {
+            "Ridge Green": {
+                "hex": "1e342d",
+                "extra_color_cost": false
+            },
+            "Raven": {
+                "hex": "191918",
+                "extra_color_cost": false
+            },
+            "Pavement": {
+                "hex": "79787E",
+                "extra_color_cost": false
+            },
+            "Steel": {
+                "hex": "b8b8b8",
+                "extra_color_cost": false
+            },
+            "Halo ": {
+                "hex": "E0DDD4",
+                "extra_color_cost": true
+            },
+            "Trueno Blue": {
+                "hex": "213182",
+                "extra_color_cost": false
+            },
+            "Track bRED ": {
+                "hex": "BE0000",
+                "extra_color_cost": true
+            }
+        }
     },
     "Grand Highlander": {
         "Display Name": "Grand Highlander",
@@ -153,7 +625,41 @@
         "Image URL": "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/jellies/relative/2025/grandhighlander/base.png",
         "Seating": "8",
         "Year": "2025",
-        "Range": null
+        "Range": null,
+        "Colors": {
+            "Heavy Metal ": {
+                "hex": "535353",
+                "extra_color_cost": true
+            },
+            "Cement": {
+                "hex": "737B82",
+                "extra_color_cost": false
+            },
+            "Celestial Silver Metallic": {
+                "hex": "828387",
+                "extra_color_cost": false
+            },
+            "Storm Cloud": {
+                "hex": "22323F",
+                "extra_color_cost": false
+            },
+            "Wind Chill Pearl ": {
+                "hex": "F3F2F2",
+                "extra_color_cost": true
+            },
+            "Ruby Flare Pearl ": {
+                "hex": "740000",
+                "extra_color_cost": true
+            },
+            "Midnight Black Metallic": {
+                "hex": "00031E",
+                "extra_color_cost": false
+            },
+            "Blueprint": {
+                "hex": "1E2548",
+                "extra_color_cost": false
+            }
+        }
     },
     "Grand Highlander Hybrid": {
         "Display Name": "Grand Highlander Hybrid",
@@ -165,7 +671,41 @@
         "Image URL": "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/jellies/relative/2025/grandhighlanderhybrid/base.png",
         "Seating": "8",
         "Year": "2025",
-        "Range": null
+        "Range": null,
+        "Colors": {
+            "Heavy Metal ": {
+                "hex": "535353",
+                "extra_color_cost": true
+            },
+            "Cement": {
+                "hex": "737B82",
+                "extra_color_cost": false
+            },
+            "Celestial Silver Metallic": {
+                "hex": "828387",
+                "extra_color_cost": false
+            },
+            "Storm Cloud": {
+                "hex": "22323F",
+                "extra_color_cost": false
+            },
+            "Wind Chill Pearl ": {
+                "hex": "F3F2F2",
+                "extra_color_cost": true
+            },
+            "Ruby Flare Pearl ": {
+                "hex": "740000",
+                "extra_color_cost": true
+            },
+            "Midnight Black Metallic": {
+                "hex": "00031E",
+                "extra_color_cost": false
+            },
+            "Blueprint": {
+                "hex": "1E2548",
+                "extra_color_cost": false
+            }
+        }
     },
     "Highlander": {
         "Display Name": "Highlander",
@@ -177,7 +717,45 @@
         "Image URL": "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/jellies/relative/2025/highlander/base.png",
         "Seating": "8",
         "Year": "2025",
-        "Range": null
+        "Range": null,
+        "Colors": {
+            "Heavy Metal ": {
+                "hex": "535353",
+                "extra_color_cost": true
+            },
+            "Wind Chill Pearl ": {
+                "hex": "F3F2F2",
+                "extra_color_cost": true
+            },
+            "Midnight Black Metallic": {
+                "hex": "00031E",
+                "extra_color_cost": false
+            },
+            "Celestial Silver Metallic": {
+                "hex": "828387",
+                "extra_color_cost": false
+            },
+            "Magnetic Gray Metallic": {
+                "hex": "494848",
+                "extra_color_cost": false
+            },
+            "Cypress": {
+                "hex": "2D4C36",
+                "extra_color_cost": false
+            },
+            "Blueprint": {
+                "hex": "1E2548",
+                "extra_color_cost": false
+            },
+            "Ruby Flare Pearl ": {
+                "hex": "740000",
+                "extra_color_cost": true
+            },
+            "Cement": {
+                "hex": "737B82",
+                "extra_color_cost": false
+            }
+        }
     },
     "Highlander Hybrid": {
         "Display Name": "Highlander Hybrid",
@@ -189,7 +767,45 @@
         "Image URL": "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/jellies/relative/2025/highlanderhybrid/base.png",
         "Seating": "8",
         "Year": "2025",
-        "Range": null
+        "Range": null,
+        "Colors": {
+            "Heavy Metal ": {
+                "hex": "535353",
+                "extra_color_cost": true
+            },
+            "Wind Chill Pearl ": {
+                "hex": "F3F2F2",
+                "extra_color_cost": true
+            },
+            "Midnight Black Metallic": {
+                "hex": "00031E",
+                "extra_color_cost": false
+            },
+            "Celestial Silver Metallic": {
+                "hex": "828387",
+                "extra_color_cost": false
+            },
+            "Magnetic Gray Metallic": {
+                "hex": "494848",
+                "extra_color_cost": false
+            },
+            "Cypress": {
+                "hex": "2D4C36",
+                "extra_color_cost": false
+            },
+            "Blueprint": {
+                "hex": "1E2548",
+                "extra_color_cost": false
+            },
+            "Ruby Flare Pearl ": {
+                "hex": "740000",
+                "extra_color_cost": true
+            },
+            "Cement": {
+                "hex": "737B82",
+                "extra_color_cost": false
+            }
+        }
     },
     "Land Cruiser": {
         "Display Name": "Land Cruiser",
@@ -201,7 +817,41 @@
         "Image URL": "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/jellies/relative/2025/landcruiser/base.png",
         "Seating": "5",
         "Year": "2025",
-        "Range": null
+        "Range": null,
+        "Colors": {
+            "Trail Dust / Grayscape ": {
+                "hex": "9b762d",
+                "extra_color_cost": true
+            },
+            "Heritage Blue / Grayscape ": {
+                "hex": "5091C3",
+                "extra_color_cost": true
+            },
+            "Black": {
+                "hex": "000000",
+                "extra_color_cost": false
+            },
+            "Wind Chill Pearl ": {
+                "hex": "E3E9E9",
+                "extra_color_cost": true
+            },
+            "Meteor Shower": {
+                "hex": "A1A1A1",
+                "extra_color_cost": false
+            },
+            "Ice Cap": {
+                "hex": "FFFFFF",
+                "extra_color_cost": false
+            },
+            "Underground": {
+                "hex": "292A2D",
+                "extra_color_cost": false
+            },
+            "Heritage Blue": {
+                "hex": "5091C3",
+                "extra_color_cost": false
+            }
+        }
     },
     "Mirai": {
         "Display Name": "Mirai",
@@ -213,7 +863,33 @@
         "Image URL": "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/jellies/relative/2024/mirai/base.png",
         "Seating": "5",
         "Year": "2024",
-        "Range": null
+        "Range": null,
+        "Colors": {
+            "Supersonic Red ": {
+                "hex": "E20500",
+                "extra_color_cost": true
+            },
+            "Hydro Blue ": {
+                "hex": "1347C1",
+                "extra_color_cost": true
+            },
+            "Elemental Silver Metallic ": {
+                "hex": "D1D4D7",
+                "extra_color_cost": true
+            },
+            "Oxygen White ": {
+                "hex": "FFFCF9",
+                "extra_color_cost": true
+            },
+            "Heavy Metal ": {
+                "hex": "545251",
+                "extra_color_cost": true
+            },
+            "Black": {
+                "hex": "000000",
+                "extra_color_cost": false
+            }
+        }
     },
     "Prius": {
         "Display Name": "Prius",
@@ -225,7 +901,37 @@
         "Image URL": "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/jellies/relative/2025/prius/base.png",
         "Seating": "5",
         "Year": "2025",
-        "Range": null
+        "Range": null,
+        "Colors": {
+            "Karashi": {
+                "hex": "AB8214",
+                "extra_color_cost": false
+            },
+            "Cutting Edge": {
+                "hex": "858585",
+                "extra_color_cost": false
+            },
+            "Guardian Gray": {
+                "hex": "4c5156",
+                "extra_color_cost": false
+            },
+            "Midnight Black Metallic": {
+                "hex": "00031E",
+                "extra_color_cost": false
+            },
+            "Supersonic Red ": {
+                "hex": "E20500",
+                "extra_color_cost": true
+            },
+            "Wind Chill Pearl ": {
+                "hex": "E3E9E9",
+                "extra_color_cost": true
+            },
+            "Reservoir Blue": {
+                "hex": "1A1C37",
+                "extra_color_cost": false
+            }
+        }
     },
     "Prius Prime": {
         "Display Name": "Prius Prime",
@@ -237,7 +943,33 @@
         "Image URL": "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/jellies/relative/2024/priusprime/base.png",
         "Seating": "5",
         "Year": "2024",
-        "Range": null
+        "Range": null,
+        "Colors": {
+            "Guardian Gray": {
+                "hex": "4c5156",
+                "extra_color_cost": false
+            },
+            "Cutting Edge": {
+                "hex": "858585",
+                "extra_color_cost": false
+            },
+            "Midnight Black Metallic": {
+                "hex": "00031E",
+                "extra_color_cost": false
+            },
+            "Supersonic Red ": {
+                "hex": "E20500",
+                "extra_color_cost": true
+            },
+            "Wind Chill Pearl ": {
+                "hex": "E3E9E9",
+                "extra_color_cost": true
+            },
+            "Reservoir Blue": {
+                "hex": "1A1C37",
+                "extra_color_cost": false
+            }
+        }
     },
     "Prius Plug-in Hybrid": {
         "Display Name": "Prius Plug-in Hybrid",
@@ -249,7 +981,33 @@
         "Image URL": "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/jellies/relative/2025/priuspluginhybrid/base.png",
         "Seating": "5",
         "Year": "2025",
-        "Range": null
+        "Range": null,
+        "Colors": {
+            "Wind Chill Pearl ": {
+                "hex": "E3E9E9",
+                "extra_color_cost": true
+            },
+            "Guardian Gray": {
+                "hex": "4C5156",
+                "extra_color_cost": false
+            },
+            "Supersonic Red ": {
+                "hex": "E20500",
+                "extra_color_cost": true
+            },
+            "Cutting Edge": {
+                "hex": "858585",
+                "extra_color_cost": false
+            },
+            "Midnight Black Metallic": {
+                "hex": "00031E",
+                "extra_color_cost": false
+            },
+            "Reservoir Blue": {
+                "hex": "1A1C37",
+                "extra_color_cost": false
+            }
+        }
     },
     "RAV4": {
         "Display Name": "RAV4",
@@ -261,7 +1019,65 @@
         "Image URL": "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/jellies/relative/2025/rav4/base.png",
         "Seating": "5",
         "Year": "2025",
-        "Range": null
+        "Range": null,
+        "Colors": {
+            "Cavalry Blue/Midnight Black Metallic roof": {
+                "hex": "2A5180",
+                "extra_color_cost": false
+            },
+            "Magnetic Gray Metallic": {
+                "hex": "494848",
+                "extra_color_cost": false
+            },
+            "Wind Chill Pearl ": {
+                "hex": "F3F2F2",
+                "extra_color_cost": true
+            },
+            "Ice Cap": {
+                "hex": "FFFFFF",
+                "extra_color_cost": false
+            },
+            "Cavalry Blue": {
+                "hex": "2A5180",
+                "extra_color_cost": false
+            },
+            "Midnight Black Metallic": {
+                "hex": "00031E",
+                "extra_color_cost": false
+            },
+            "Ruby Flare Pearl ": {
+                "hex": "740000",
+                "extra_color_cost": true
+            },
+            "Blueprint": {
+                "hex": "1E2548",
+                "extra_color_cost": false
+            },
+            "Silver Sky Metallic": {
+                "hex": "C6C8CC",
+                "extra_color_cost": false
+            },
+            "Wind Chill Pearl/Midnight Black Metallic roof ": {
+                "hex": "E3E9E9",
+                "extra_color_cost": true
+            },
+            "Silver Sky Metallic/Midnight Black Metallic roof": {
+                "hex": "C6C8CC",
+                "extra_color_cost": false
+            },
+            "Magnetic Gray Metallic/Midnight Black Metallic roof": {
+                "hex": "494848",
+                "extra_color_cost": false
+            },
+            "Army Green/Midnight Black Metallic roof ": {
+                "hex": "2A3A2A",
+                "extra_color_cost": true
+            },
+            "Ice Cap/Midnight Black Metallic roof ": {
+                "hex": "FFFFFF",
+                "extra_color_cost": true
+            }
+        }
     },
     "RAV4 Hybrid": {
         "Display Name": "RAV4 Hybrid",
@@ -273,7 +1089,65 @@
         "Image URL": "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/jellies/relative/2025/rav4hybrid/base.png",
         "Seating": "5",
         "Year": "2025",
-        "Range": null
+        "Range": null,
+        "Colors": {
+            "Cavalry Blue/Midnight Black Metallic roof": {
+                "hex": "2A5180",
+                "extra_color_cost": false
+            },
+            "Magnetic Gray Metallic": {
+                "hex": "494848",
+                "extra_color_cost": false
+            },
+            "Wind Chill Pearl ": {
+                "hex": "F3F2F2",
+                "extra_color_cost": true
+            },
+            "Ice Cap": {
+                "hex": "FFFFFF",
+                "extra_color_cost": false
+            },
+            "Cavalry Blue": {
+                "hex": "2A5180",
+                "extra_color_cost": false
+            },
+            "Midnight Black Metallic": {
+                "hex": "00031E",
+                "extra_color_cost": false
+            },
+            "Ruby Flare Pearl ": {
+                "hex": "740000",
+                "extra_color_cost": true
+            },
+            "Blueprint": {
+                "hex": "1E2548",
+                "extra_color_cost": false
+            },
+            "Silver Sky Metallic": {
+                "hex": "C6C8CC",
+                "extra_color_cost": false
+            },
+            "Wind Chill Pearl/Midnight Black Metallic roof ": {
+                "hex": "E3E9E9",
+                "extra_color_cost": true
+            },
+            "Silver Sky Metallic/Midnight Black Metallic roof": {
+                "hex": "C6C8CC",
+                "extra_color_cost": false
+            },
+            "Magnetic Gray Metallic/Midnight Black Metallic roof": {
+                "hex": "494848",
+                "extra_color_cost": false
+            },
+            "Army Green/Midnight Black Metallic roof ": {
+                "hex": "2A3A2A",
+                "extra_color_cost": true
+            },
+            "Ice Cap/Midnight Black Metallic roof ": {
+                "hex": "FFFFFF",
+                "extra_color_cost": true
+            }
+        }
     },
     "RAV4 Plug-in Hybrid": {
         "Display Name": "RAV4 Plug-in Hybrid",
@@ -285,7 +1159,53 @@
         "Image URL": "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/jellies/relative/2025/rav4pluginhybrid/base.png",
         "Seating": "5",
         "Year": "2025",
-        "Range": null
+        "Range": null,
+        "Colors": {
+            "Supersonic Red/Midnight Black Metallic Roof ": {
+                "hex": "E20500",
+                "extra_color_cost": true
+            },
+            "Silver Sky Metallic/Midnight Black Metallic Roof": {
+                "hex": "C6C8CC",
+                "extra_color_cost": false
+            },
+            "Blueprint/Midnight Black Metallic Roof": {
+                "hex": "1E2548",
+                "extra_color_cost": false
+            },
+            "Silver Sky Metallic": {
+                "hex": "C6C8CC",
+                "extra_color_cost": false
+            },
+            "Blueprint": {
+                "hex": "1E2548",
+                "extra_color_cost": false
+            },
+            "Midnight Black Metallic": {
+                "hex": "00031E",
+                "extra_color_cost": false
+            },
+            "Ice Cap": {
+                "hex": "FFFFFF",
+                "extra_color_cost": false
+            },
+            "Magnetic Gray Metallic/Midnight Black Metallic Roof": {
+                "hex": "494848",
+                "extra_color_cost": false
+            },
+            "Supersonic Red ": {
+                "hex": "E20500",
+                "extra_color_cost": true
+            },
+            "Magnetic Gray Metallic": {
+                "hex": "494848",
+                "extra_color_cost": false
+            },
+            "Wind Chill Pearl/Midnight Black Metallic Roof ": {
+                "hex": "E3E9E9",
+                "extra_color_cost": true
+            }
+        }
     },
     "Sequoia": {
         "Display Name": "Sequoia",
@@ -297,7 +1217,49 @@
         "Image URL": "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/jellies/relative/2025/sequoia/base.png",
         "Seating": "8",
         "Year": "2025",
-        "Range": null
+        "Range": null,
+        "Colors": {
+            "Wind Chill Pearl ": {
+                "hex": "E3E9E9",
+                "extra_color_cost": true
+            },
+            "Blueprint": {
+                "hex": "1E2548",
+                "extra_color_cost": false
+            },
+            "Ice Cap": {
+                "hex": "FFFFFF",
+                "extra_color_cost": false
+            },
+            "Celestial Silver Metallic": {
+                "hex": "828387",
+                "extra_color_cost": false
+            },
+            "Magnetic Gray Metallic": {
+                "hex": "494848",
+                "extra_color_cost": false
+            },
+            "Midnight Black Metallic": {
+                "hex": "00031E",
+                "extra_color_cost": false
+            },
+            "Supersonic Red ": {
+                "hex": "E20500",
+                "extra_color_cost": true
+            },
+            "Lunar Rock": {
+                "hex": "949B96",
+                "extra_color_cost": false
+            },
+            "Terra": {
+                "hex": "652708",
+                "extra_color_cost": false
+            },
+            "Mudbath": {
+                "hex": "604F46",
+                "extra_color_cost": false
+            }
+        }
     },
     "Sienna": {
         "Display Name": "Sienna",
@@ -309,7 +1271,45 @@
         "Image URL": "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/jellies/relative/2025/sienna/base.png",
         "Seating": "8",
         "Year": "2025",
-        "Range": null
+        "Range": null,
+        "Colors": {
+            "Celestial Silver Metallic": {
+                "hex": "828387",
+                "extra_color_cost": false
+            },
+            "Ice Cap": {
+                "hex": "FFFFFF",
+                "extra_color_cost": false
+            },
+            "Wind Chill Pearl ": {
+                "hex": "F3F2F2",
+                "extra_color_cost": true
+            },
+            "Cement": {
+                "hex": "737B82",
+                "extra_color_cost": false
+            },
+            "Magnetic Gray Metallic": {
+                "hex": "494848",
+                "extra_color_cost": false
+            },
+            "Midnight Black Metallic": {
+                "hex": "00031E",
+                "extra_color_cost": false
+            },
+            "Ruby Flare Pearl ": {
+                "hex": "740000",
+                "extra_color_cost": true
+            },
+            "Cypress": {
+                "hex": "2D4C36",
+                "extra_color_cost": false
+            },
+            "Blueprint": {
+                "hex": "1E2548",
+                "extra_color_cost": false
+            }
+        }
     },
     "Tacoma": {
         "Display Name": "Tacoma",
@@ -321,7 +1321,57 @@
         "Image URL": "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/jellies/relative/2025/tacoma/base.png",
         "Seating": "5",
         "Year": "2025",
-        "Range": null
+        "Range": null,
+        "Colors": {
+            "Mudbath with Black roof": {
+                "hex": "604F46",
+                "extra_color_cost": false
+            },
+            "Terra": {
+                "hex": "652708",
+                "extra_color_cost": false
+            },
+            "Ice Cap with Black roof": {
+                "hex": "FFFFFF",
+                "extra_color_cost": false
+            },
+            "Bronze Oxide": {
+                "hex": "857A6A",
+                "extra_color_cost": false
+            },
+            "Celestial Silver Metallic": {
+                "hex": "828387",
+                "extra_color_cost": false
+            },
+            "Ice Cap": {
+                "hex": "FFFFFF",
+                "extra_color_cost": false
+            },
+            "Underground with Black roof": {
+                "hex": "7E7B7D",
+                "extra_color_cost": false
+            },
+            "Wind Chill Pearl ": {
+                "hex": "E3E9E9",
+                "extra_color_cost": true
+            },
+            "Underground": {
+                "hex": "7E7B7D",
+                "extra_color_cost": false
+            },
+            "Blue Crush Metallic": {
+                "hex": "111D69",
+                "extra_color_cost": false
+            },
+            "Black": {
+                "hex": "000000",
+                "extra_color_cost": false
+            },
+            "Supersonic Red ": {
+                "hex": "E20500",
+                "extra_color_cost": true
+            }
+        }
     },
     "Tacoma i-FORCE MAX": {
         "Display Name": "Tacoma i-FORCE MAX",
@@ -333,7 +1383,57 @@
         "Image URL": "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/jellies/relative/2025/tacomahybrid/base.png",
         "Seating": "5",
         "Year": "2025",
-        "Range": null
+        "Range": null,
+        "Colors": {
+            "Mudbath with Black roof": {
+                "hex": "604F46",
+                "extra_color_cost": false
+            },
+            "Terra": {
+                "hex": "652708",
+                "extra_color_cost": false
+            },
+            "Ice Cap with Black roof": {
+                "hex": "FFFFFF",
+                "extra_color_cost": false
+            },
+            "Bronze Oxide": {
+                "hex": "857A6A",
+                "extra_color_cost": false
+            },
+            "Celestial Silver Metallic": {
+                "hex": "828387",
+                "extra_color_cost": false
+            },
+            "Ice Cap": {
+                "hex": "FFFFFF",
+                "extra_color_cost": false
+            },
+            "Underground with Black roof": {
+                "hex": "7E7B7D",
+                "extra_color_cost": false
+            },
+            "Wind Chill Pearl ": {
+                "hex": "E3E9E9",
+                "extra_color_cost": true
+            },
+            "Underground": {
+                "hex": "7E7B7D",
+                "extra_color_cost": false
+            },
+            "Blue Crush Metallic": {
+                "hex": "111D69",
+                "extra_color_cost": false
+            },
+            "Black": {
+                "hex": "000000",
+                "extra_color_cost": false
+            },
+            "Supersonic Red ": {
+                "hex": "E20500",
+                "extra_color_cost": true
+            }
+        }
     },
     "Toyota Crown": {
         "Display Name": "Toyota Crown",
@@ -345,7 +1445,49 @@
         "Image URL": "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/jellies/relative/2025/toyotacrown/base.png",
         "Seating": "5",
         "Year": "2025",
-        "Range": null
+        "Range": null,
+        "Colors": {
+            "Supersonic Red with Black bi-tone ": {
+                "hex": "E20500",
+                "extra_color_cost": true
+            },
+            "Bronze Age ": {
+                "hex": "936445",
+                "extra_color_cost": true
+            },
+            "Storm Cloud\u00a0[illustrative]": {
+                "hex": "22323F",
+                "extra_color_cost": false
+            },
+            "Black ": {
+                "hex": "000000",
+                "extra_color_cost": true
+            },
+            "Heavy Metal ": {
+                "hex": "545251",
+                "extra_color_cost": true
+            },
+            "Supersonic Red ": {
+                "hex": "E20500",
+                "extra_color_cost": true
+            },
+            "Oxygen White ": {
+                "hex": "FFFCF9",
+                "extra_color_cost": true
+            },
+            "Oxygen White with Black bi-tone ": {
+                "hex": "FFFCF9",
+                "extra_color_cost": true
+            },
+            "Bronze Age with Black bi-tone ": {
+                "hex": "936445",
+                "extra_color_cost": true
+            },
+            "Heavy Metal with Black bi-tone ": {
+                "hex": "545251",
+                "extra_color_cost": true
+            }
+        }
     },
     "Toyota Crown Signia": {
         "Display Name": "Toyota Crown Signia",
@@ -357,7 +1499,29 @@
         "Image URL": "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/jellies/relative/2025/toyotacrownsignia/base.png",
         "Seating": "5",
         "Year": "2025",
-        "Range": null
+        "Range": null,
+        "Colors": {
+            "Storm Cloud": {
+                "hex": "22323F",
+                "extra_color_cost": false
+            },
+            "Bronze Age ": {
+                "hex": "936445",
+                "extra_color_cost": true
+            },
+            "Finish Line Red ": {
+                "hex": "A11D1D",
+                "extra_color_cost": true
+            },
+            "Oxygen White ": {
+                "hex": "FFFCF9",
+                "extra_color_cost": true
+            },
+            "Black": {
+                "hex": "000000",
+                "extra_color_cost": false
+            }
+        }
     },
     "Tundra": {
         "Display Name": "Tundra",
@@ -369,7 +1533,53 @@
         "Image URL": "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/jellies/relative/2025/tundra/base.png",
         "Seating": "5",
         "Year": "2025",
-        "Range": null
+        "Range": null,
+        "Colors": {
+            "Mudbath": {
+                "hex": "604F46",
+                "extra_color_cost": false
+            },
+            "Ice Cap": {
+                "hex": "FFFFFF",
+                "extra_color_cost": false
+            },
+            "Wind Chill Pearl ": {
+                "hex": "E3E9E9",
+                "extra_color_cost": true
+            },
+            "Magnetic Gray Metallic": {
+                "hex": "494848",
+                "extra_color_cost": false
+            },
+            "Celestial Silver Metallic": {
+                "hex": "828387",
+                "extra_color_cost": false
+            },
+            "Midnight Black Metallic": {
+                "hex": "00031E",
+                "extra_color_cost": false
+            },
+            "Supersonic Red ": {
+                "hex": "E20500",
+                "extra_color_cost": true
+            },
+            "Smoked Mesquite": {
+                "hex": "412C1B",
+                "extra_color_cost": false
+            },
+            "Lunar Rock": {
+                "hex": "949B96",
+                "extra_color_cost": false
+            },
+            "Blueprint": {
+                "hex": "1E2548",
+                "extra_color_cost": false
+            },
+            "Terra": {
+                "hex": "652708",
+                "extra_color_cost": false
+            }
+        }
     },
     "Tundra i-FORCE MAX": {
         "Display Name": "Tundra i-FORCE MAX",
@@ -381,7 +1591,53 @@
         "Image URL": "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/jellies/relative/2025/tundrahybrid/base.png",
         "Seating": "5",
         "Year": "2025",
-        "Range": null
+        "Range": null,
+        "Colors": {
+            "Mudbath": {
+                "hex": "604F46",
+                "extra_color_cost": false
+            },
+            "Ice Cap": {
+                "hex": "FFFFFF",
+                "extra_color_cost": false
+            },
+            "Wind Chill Pearl ": {
+                "hex": "E3E9E9",
+                "extra_color_cost": true
+            },
+            "Magnetic Gray Metallic": {
+                "hex": "494848",
+                "extra_color_cost": false
+            },
+            "Celestial Silver Metallic": {
+                "hex": "828387",
+                "extra_color_cost": false
+            },
+            "Midnight Black Metallic": {
+                "hex": "00031E",
+                "extra_color_cost": false
+            },
+            "Supersonic Red ": {
+                "hex": "E20500",
+                "extra_color_cost": true
+            },
+            "Smoked Mesquite": {
+                "hex": "412C1B",
+                "extra_color_cost": false
+            },
+            "Lunar Rock": {
+                "hex": "949B96",
+                "extra_color_cost": false
+            },
+            "Blueprint": {
+                "hex": "1E2548",
+                "extra_color_cost": false
+            },
+            "Terra": {
+                "hex": "652708",
+                "extra_color_cost": false
+            }
+        }
     },
     "Venza": {
         "Display Name": "Venza",
@@ -393,6 +1649,36 @@
         "Image URL": "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/jellies/relative/2024/venza/base.png",
         "Seating": "5",
         "Year": "2024",
-        "Range": null
+        "Range": null,
+        "Colors": {
+            "Ruby Flare Pearl ": {
+                "hex": "740000",
+                "extra_color_cost": true
+            },
+            "Wind Chill Pearl ": {
+                "hex": "E3E9E9",
+                "extra_color_cost": true
+            },
+            "Celestial Black ": {
+                "hex": "1D1C1C",
+                "extra_color_cost": true
+            },
+            "Coastal Gray Metallic": {
+                "hex": "6D7A82",
+                "extra_color_cost": false
+            },
+            "Blueprint": {
+                "hex": "1E2548",
+                "extra_color_cost": false
+            },
+            "Titanium Glow": {
+                "hex": "BEB8B8",
+                "extra_color_cost": false
+            },
+            "Black": {
+                "hex": "000000",
+                "extra_color_cost": false
+            }
+        }
     }
 }
